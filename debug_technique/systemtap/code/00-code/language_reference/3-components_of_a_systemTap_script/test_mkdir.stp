@@ -1,0 +1,26 @@
+
+probe kernel.function("sys_mkdir").call
+{
+	log("enter");
+}
+
+probe kernel.function("sys_mkdir").return
+{
+	log("exit\n\n");
+}
+
+
+probe syscall.mkdir
+{
+	printf ("%s(%d) mkdir (%s)\n", execname( ), pid( ), argstr)
+}
+
+probe begin
+{
+	printf("test mkdir begin\n");
+}
+
+probe end
+{
+	printf("test mkdir end\n");
+}

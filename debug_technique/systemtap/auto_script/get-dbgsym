@@ -1,0 +1,108 @@
+#!/bin/bash 
+
+#============================= get-dbgsym ====================================#
+# 
+# Helper script for systemtap on Ubuntu.
+# It downloads and installs the debug image of the running kernel.
+#
+# Copyright Loic Domaigne <www.domaigne.com>,
+# Licensed under the Apache License, Version 2.0.
+#
+#=============================================================================#
+
+#---------------------------------------------------------------
+# helper function for showing error
+#---------------------------------------------------------------
+function error() { echo -e "\n$(tput bold)$(tput setaf 1)!!! ERROR !!! $(tput sgr0)"; return 0; }
+
+
+#---------------------------------------------------------------
+# a few global variables
+#---------------------------------------------------------------
+POOL="http://ddebs.ubuntu.com/pool/main/l/linux/" 
+PKG_DIR=~/dpkg
+
+WGET=/usr/bin/wget
+MKDIR=/bin/mkdir
+RM=/bin/rm 
+SUDO=/usr/bin/sudo
+DPKG=/usr/bin/dpkg
+
+#---------------------------------------------------------------
+# check my architecture
+#---------------------------------------------------------------
+HW=`uname -m`
+case "${HW}" in 
+   i386)
+      ARCH="i386"
+      ;;
+   i686) 
+      ARCH="i386"
+      ;;
+   x86_64)
+      ARCH="amd64"
+      ;;
+   *)
+      error
+      echo "-> Unknow architecture ${HW}"
+      echo "   please informs me at www.domaigne.com"
+      echo 
+      exit 1
+esac
+echo "Architecture for kernel: ${ARCH}" 
+
+#--------------------------------------------------------------
+# check if image is already installed
+#--------------------------------------------------------------
+KERNEL="linux-image-$(uname -r)-dbgsym"
+${DPKG} -l "${KERNEL}" > /dev/null
+[ $? -eq 0 ] && echo "${KERNEL} is already installed. Quitting." && exit 0
+
+#---------------------------------------------------------------
+# find matching kernel with debug symbols in pool
+#---------------------------------------------------------------
+
+# note: there might be several dbgsym kernel in the pool for the 
+# installed kernel. pick the latest one (tail -n 1) 
+#
+# thanks to ysoh2 
+
+DBG_KERNEL_LINK=`${WGET} ${POOL} -O - 2> /dev/null | grep "${KERNEL}" | grep ${ARCH} | sed 's/^.*href=\"//g' | sed 's/\".*$//g' | tail -n 1`
+
+#--------------------------------------------------------------
+# if nothing found, abort
+#--------------------------------------------------------------
+[ x"$DBG_KERNEL_LINK" == "x" ] && error && echo -e "-> Problem while looking for ${KERNEL}\n   - either I could not connect to ${POOL}\n   - or the kernel couldn't be found there" && exit 2
+
+#--------------------------------------------------------------
+# change to ${PKG_DIR} (create if doesn't exist)
+#--------------------------------------------------------------
+pushd . > /dev/null
+if [ ! -d ${PKG_DIR} ]
+then 
+   ${MKDIR} ${PKG_DIR} 
+   [ $? -ne 0 ] && error && echo "-> could not create ${PKG_DIR}" && exit 3
+fi 
+cd ${PKG_DIR} 
+[ $? -ne 0 ] && error && echo "-> could not change to directory ${PKG_DIR}" && exit 3
+
+#--------------------------------------------------------------
+# load kernel with debug symbols from POOL
+#--------------------------------------------------------------
+${RM} ${DBG_KERNEL_LINK}
+${WGET} ${POOL}/${DBG_KERNEL_LINK} 
+RC=$?
+[ $RC -ne 0  ] && error && echo "-> failed to wget ${DBG_KERNEL_LINK} (code returned:$RC)" && popd && exit 4
+
+#--------------------------------------------------------------
+# install the kernel 
+#--------------------------------------------------------------
+${SUDO} ${DPKG} -i ${DBG_KERNEL_LINK} 
+RC=$?
+[ $RC -ne 0 ] && echo -e "->package installation failed (code:$RC)" && popd && exit 5 
+
+#--------------------------------------------------------------
+# that's all folks!
+#--------------------------------------------------------------
+popd 
+exit 0 

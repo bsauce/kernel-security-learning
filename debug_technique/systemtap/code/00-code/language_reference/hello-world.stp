@@ -1,0 +1,20 @@
+#  http://blog.csdn.net/justlinux2010/article/details/10050265
+function print_value()
+{
+    printf("probefunc = %s, ppfunc = %s, pp = %s\n", probefunc( ), ppfunc( ), pp( ));
+    printf("pid = %d, tid = %d, common = %s\n", pid( ), tid( ), execname( ));
+    printf("cpu = %d, cycle = %d\n", cpu( ), get_cycles( ));
+    #printf("time = %s", gettimeofday_s( ));
+    print_backtrace( );
+    print_ubacktrace( );
+    #printf("indent = %d\n", thread_indent( ));
+
+}
+
+probe begin
+{
+    print("Hello World\n")
+    print_value( );
+    exit()
+}
+

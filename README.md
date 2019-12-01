@@ -44,7 +44,7 @@ Keep updating...
 
 （10）2018-S&P：DEADLINE-Precise and Scalable Detection of Double-Fetch Bugs in OS Kernels [note](https://www.jianshu.com/p/e4084b2c7c16)
 
-（11）2-18-CCS：Check It Again- Detecting Lacking-Recheck Bugs in OS Kernels [note](https://www.jianshu.com/p/2f8df6082b1d)
+（11）2018-CCS：Check It Again- Detecting Lacking-Recheck Bugs in OS Kernels [note](https://www.jianshu.com/p/2f8df6082b1d)
 
 （12）2018-USENIX：MoonShine：Optimizing OS Fuzzer Seed Selection with Trace Distillation [note](https://www.jianshu.com/p/7e90ad222acf)
 

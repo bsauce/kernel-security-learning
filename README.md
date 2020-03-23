@@ -48,23 +48,25 @@ Keep updating...
 
 （12）2018-USENIX：MoonShine：Optimizing OS Fuzzer Seed Selection with Trace Distillation [note](https://www.jianshu.com/p/7e90ad222acf)
 
-（13）2019-S&P：LBM- A Security Framework for Peripherals within the Linux Kernel
+（13）2018-NDSS：K-Miner: Uncovering Memory Corruption in Linux [note](https://blog.csdn.net/u012332816/article/details/79795643)
 
-（14）2019-S&P：Razzer：Finding Kernel Race Bugs through Fuzzing [note](https://www.jianshu.com/p/43ced9660257)
+（14）2019-S&P：LBM- A Security Framework for Peripherals within the Linux Kernel
 
-（15）2019-WOOT：Unicorefuzz- On the Viability of Emulation for Kernelspace Fuzzing
+（15）2019-S&P：Razzer：Finding Kernel Race Bugs through Fuzzing [note](https://www.jianshu.com/p/43ced9660257)
 
-（16）2019-FSE：Detecting Concurrency Memory Corruption Vulnerabilities
+（16）2019-WOOT：Unicorefuzz- On the Viability of Emulation for Kernelspace Fuzzing
 
-（17）2019-S&P：Fuzzing File Systems via Two-Dimensional Input Space Exploration [note](https://www.jianshu.com/p/23c3e41254b6)
+（17）2019-FSE：Detecting Concurrency Memory Corruption Vulnerabilities
 
-（18）2019-USENIX：Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences
+（18）2019-S&P：Fuzzing File Systems via Two-Dimensional Input Space Exploration [note](https://www.jianshu.com/p/23c3e41254b6)
 
-（19）2019-NDSS：PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary [note](https://www.jianshu.com/p/34568906d900)
+（19）2019-USENIX：Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences
+
+（20）2019-NDSS：PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary [note](https://www.jianshu.com/p/34568906d900)
 
 ### 3.kernel defense
 
-2017-USENIX：[CAn’t Touch This: Software-only Mitigation against Rowhammer Attacks targeting Kernel Memory](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/brasser)
+2017-USENIX：[Can’t Touch This: Software-only Mitigation against Rowhammer Attacks targeting Kernel Memory](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/brasser)
 
 2017-USENIX：[Oscar: A Practical Page-Permissions-Based Scheme for Thwarting Dangling Pointers](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/dang)
 
@@ -74,9 +76,9 @@ Keep updating...
 
 2019-USENIX：[SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization](https://www.usenix.org/conference/usenixsecurity19/presentation/wang)
 
-
-
 2017-USENIX：[Oscar: A Practical Page-Permissions-Based Scheme for Thwarting Dangling Pointers](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/dang)
+
+2017-CCS：[kRˆX: Comprehensive Kernel Protection Against Just-In-Time Code Reuse](http://www.cs.columbia.edu/~theofilos/files/papers/2017/krx.pdf)  [[slides](http://www.cs.columbia.edu/~theofilos/files/slides/krx.pdf)]
 
 ---
 
@@ -97,6 +99,8 @@ Keep updating...
 13. [linux内核提权系列教程（1）：堆喷射函数sendmsg与msgsend利用](https://www.jianshu.com/p/5583657cfd25)
 14. [linux内核提权系列教程（2）：任意地址读写到提权的4种方法](https://www.jianshu.com/p/fef2377f6a31)
 15. [linux内核提权系列教程（3）：栈变量未初始化漏洞](https://www.jianshu.com/p/b28b964b9243)
+
+16.[【linux内核漏洞利用】ret2dir利用方法](https://www.jianshu.com/p/3c662b6163a7)
 
 
 

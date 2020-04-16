@@ -22,6 +22,8 @@ Keep updating...
 
 （5）2019-CCS：SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019 [note](https://www.jianshu.com/p/d731cd87c6f4)
 
+（6）2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng)
+
 ### 2.kernel fuzz
 
 （1）2014-Black Hat：QSEE TrustZone Kernel Integer Overflow
@@ -64,6 +66,10 @@ Keep updating...
 
 （20）2019-NDSS：PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary [note](https://www.jianshu.com/p/34568906d900)
 
+（21）2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/)
+
+（22）2020-S&P：[Krace: Data Race Fuzzing for Kernel File Systems](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b568/1iqVRYHTi24)
+
 ### 3.kernel defense
 
 2017-USENIX：[Can’t Touch This: Software-only Mitigation against Rowhammer Attacks targeting Kernel Memory](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/brasser)
@@ -79,6 +85,18 @@ Keep updating...
 2017-USENIX：[Oscar: A Practical Page-Permissions-Based Scheme for Thwarting Dangling Pointers](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/dang)
 
 2017-CCS：[kRˆX: Comprehensive Kernel Protection Against Just-In-Time Code Reuse](http://www.cs.columbia.edu/~theofilos/files/papers/2017/krx.pdf)  [[slides](http://www.cs.columbia.edu/~theofilos/files/slides/krx.pdf)]
+
+2020-S&P：[xMP: Selective Memory Protection for Kernel and User Space](https://www.computer.org/csdl/proceedings-article/sp/2020/349700a603/1iqVRnCoPjq)
+
+2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG)
+
+---
+
+### 4. Android
+
+2020-USEINX：[Automatic Hot Patch Generation for Android Kernels](https://www.usenix.org/conference/usenixsecurity20/presentation/xu)—自动给安卓打补丁
+
+
 
 ---
 
@@ -99,8 +117,7 @@ Keep updating...
 13. [linux内核提权系列教程（1）：堆喷射函数sendmsg与msgsend利用](https://www.jianshu.com/p/5583657cfd25)
 14. [linux内核提权系列教程（2）：任意地址读写到提权的4种方法](https://www.jianshu.com/p/fef2377f6a31)
 15. [linux内核提权系列教程（3）：栈变量未初始化漏洞](https://www.jianshu.com/p/b28b964b9243)
-
-16.[【linux内核漏洞利用】ret2dir利用方法](https://www.jianshu.com/p/3c662b6163a7)
+16. [【linux内核漏洞利用】ret2dir利用方法](https://www.jianshu.com/p/3c662b6163a7)
 
 
 

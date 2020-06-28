@@ -33,15 +33,16 @@ Keep updating...
 
 #### （1）kernel exploit
 
-1. 2015-CCS：From collision to exploitation_ Unleashing Use-After-Free vulnerabilities in Linux Kernel
-2. 2016-CCS：[Prefetch Side-Channel Attacks - Bypassing SMAP and Kernel ASLR](https://doi.org/10.1145/2976749.2978356)
-3. 2016-CCS：[Breaking Kernel Address Space Layout Randomization with Intel TSX](https://doi.org/10.1145/2976749.2978321)
-4. 2017-CCS：[SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits](https://acmccs.github.io/papers/p2139-youA.pdf)
-5. 2017-NDSS：Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying — [[note](https://www.jianshu.com/p/636db0e5d246)]
-6. 2018-USENIX：FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities — [[note](https://www.jianshu.com/p/cfe7c9f7e852)]
-7. 2019-USENIX：KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities — [[note](https://www.jianshu.com/p/53570db6fcba)]
-8. 2019-CCS：SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019 — [[note](https://www.jianshu.com/p/d731cd87c6f4)]
-9. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — [[note](https://www.jianshu.com/p/24cb664a2811)]
+1. 2014-USENIX：[ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/kemerlis)
+2. 2015-CCS：From collision to exploitation_ Unleashing Use-After-Free vulnerabilities in Linux Kernel
+3. 2016-CCS：[Prefetch Side-Channel Attacks - Bypassing SMAP and Kernel ASLR](https://doi.org/10.1145/2976749.2978356)
+4. 2016-CCS：[Breaking Kernel Address Space Layout Randomization with Intel TSX](https://doi.org/10.1145/2976749.2978321)
+5. 2017-CCS：[SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits](https://acmccs.github.io/papers/p2139-youA.pdf)
+6. 2017-NDSS：Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying — [[note](https://www.jianshu.com/p/636db0e5d246)]
+7. 2018-USENIX：FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities — [[note](https://www.jianshu.com/p/cfe7c9f7e852)]
+8. 2019-USENIX：KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities — [[note](https://www.jianshu.com/p/53570db6fcba)]
+9. 2019-CCS：SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019 — [[note](https://www.jianshu.com/p/d731cd87c6f4)]
+10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — [[note](https://www.jianshu.com/p/24cb664a2811)]
 
 #### （2）kernel vulerability detection
 
@@ -154,6 +155,8 @@ Keep updating...
 6. [【KVM】KVM学习—实现自己的内核](https://www.jianshu.com/p/5ec4507e9be0)
 
 
+
+---
 
 ### Reference:
 

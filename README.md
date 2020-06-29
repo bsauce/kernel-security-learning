@@ -1,6 +1,6 @@
 # Kernel-Security-Learning
 
-Anything about kernel security. CTF kernel pwn, kernel exploit, kernel fuzz and kernel defense paper, kernel debugging technique, kernel CVE debug. 
+Anything about kernel security. CTF kernel pwn & kernel exploit, kernel fuzz and kernel defense paper & kernel debugging technique & kernel CVE debug. 
 
 Keep updating...
 
@@ -38,40 +38,40 @@ Keep updating...
 3. 2016-CCS：[Prefetch Side-Channel Attacks - Bypassing SMAP and Kernel ASLR](https://doi.org/10.1145/2976749.2978356)
 4. 2016-CCS：[Breaking Kernel Address Space Layout Randomization with Intel TSX](https://doi.org/10.1145/2976749.2978321)
 5. 2017-CCS：[SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits](https://acmccs.github.io/papers/p2139-youA.pdf)
-6. 2017-NDSS：Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying — [[note](https://www.jianshu.com/p/636db0e5d246)]
-7. 2018-USENIX：FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities — [[note](https://www.jianshu.com/p/cfe7c9f7e852)]
-8. 2019-USENIX：KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities — [[note](https://www.jianshu.com/p/53570db6fcba)]
-9. 2019-CCS：SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019 — [[note](https://www.jianshu.com/p/d731cd87c6f4)]
-10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — [[note](https://www.jianshu.com/p/24cb664a2811)]
+6. 2017-NDSS：Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying — 【[note](https://www.jianshu.com/p/636db0e5d246)】
+7. 2018-USENIX：FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities — 【[note](https://www.jianshu.com/p/cfe7c9f7e852)】
+8. 2019-USENIX：KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities — 【[note](https://www.jianshu.com/p/53570db6fcba)】
+9. 2019-CCS：SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019 — 【[note](https://www.jianshu.com/p/d731cd87c6f4)】
+10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】
 
 #### （2）kernel vulerability detection
 
-1. 2014-Black Hat：QSEE TrustZone Kernel Integer Overflow
+1. 2014-Black Hat：[QSEE TrustZone Kernel Integer Overflow](https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2014/us-14-Rosenberg-Reflections-On-Trusting-TrustZone-WP.pdf)
 2. 2014-USENIX：[Static Analysis of Variability in System Software - The 90, 000 #ifdefs Issue](https://www.usenix.org/conference/atc14/technical-sessions/presentation/tartler)
-3. 2014-USENIX：SKI：Exposing Kernel Concurrency Bugs through Systematic Schedule Exploration
-4. 2016-USENIX：UniSan-Proactive Kernel Memory Initialization to Eliminate Data Leakages — [[note](http://www.inforsec.org/wp/?p=1416)]
-5. 2016-USENIX：APISan: Sanitizing API Usages through Semantic Cross-Checking
-6. 2017-EUROSYS：[[DangSan - Scalable Use-after-free Detection](https://doi.org/10.1145/3064176.3064211)]
-7. 2017-USENIX：CAB-Fuzz：Practical Concolic Testing Techniques for {COTS} Operating Systems
-8. 2017-CCS：DIFUZE-Interface Aware Fuzzing for Kernel Drivers — [[note](https://www.jianshu.com/p/670b141d1b8d)]
-9. 2017-USENIX：Digtool- A Virtualization-Based Framework for Detecting Kernel Vulnerabilities-usenix — [[note](https://www.jianshu.com/p/3cc85231657d)]
-10. 2017-USENIX：How Double-Fetch Situations turn into DoubleFetch — [[note](http://www.inforsec.org/wp/?p=2049)]
-11. 2017-USENIX：DR. CHECKER- A Soundy Analysis for Linux Kernel Drivers
-12. 2017-USENIX：kAFL- Hardware-Assisted Feedback Fuzzing for OS Kernels-usenix — [[note](https://www.jianshu.com/u/cd49be7bd6b5)]
-13. 2018-S&P：DEADLINE-Precise and Scalable Detection of Double-Fetch Bugs in OS Kernels — [[note](https://www.jianshu.com/p/e4084b2c7c16)]
-14. 2018-CCS：Check It Again- Detecting Lacking-Recheck Bugs in OS Kernels — [[note](https://www.jianshu.com/p/2f8df6082b1d)]
-15. 2018-USENIX：MoonShine：Optimizing OS Fuzzer Seed Selection with Trace Distillation — [[note](https://www.jianshu.com/p/7e90ad222acf)]
-16. 2018-NDSS：[K-Miner: Uncovering Memory Corruption in Linux](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_05A-1_Gens_paper.pdf) — [[note](https://blog.csdn.net/u012332816/article/details/79795643)]
-17. 2019-S&P：LBM- A Security Framework for Peripherals within the Linux Kernel
-18. 2019-S&P：Razzer：Finding Kernel Race Bugs through Fuzzing — [[note](https://www.jianshu.com/p/43ced9660257)]
-19. 2019-WOOT：Unicorefuzz- On the Viability of Emulation for Kernelspace Fuzzing
-20. 2019-FSE：Detecting Concurrency Memory Corruption Vulnerabilities
-21. 2019-S&P：Fuzzing File Systems via Two-Dimensional Input Space Exploration — [[note](https://www.jianshu.com/p/23c3e41254b6)] [note2](https://blog.csdn.net/RainyD4y/article/details/106892751)
-22. 2019-USENIX：Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences
-23. 2019-USENIX：[Effective Static Analysis of Concurrency Use-After-Free Bugs in Linux Device Drivers](https://www.usenix.org/conference/atc19/presentation/bai) — [[note](https://securitygossip.com/blog/2019/11/22/effective-static-analysis-of-concurrency-use-after-free-bugs-in-linux-device-drivers/)]
-24. 2019-NDSS：PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary — [[note](https://www.jianshu.com/p/34568906d900)]
+3. 2014-USENIX：[SKI：Exposing Kernel Concurrency Bugs through Systematic Schedule Exploration](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-fonseca.pdf)
+4. 2016-USENIX：[UniSan-Proactive Kernel Memory Initialization to Eliminate Data Leakages](https://dl.acm.org/doi/pdf/10.1145/2976749.2978366) — 【[note](http://www.inforsec.org/wp/?p=1416)】
+5. 2016-USENIX：[APISan: Sanitizing API Usages through Semantic Cross-Checking](https://pdfs.semanticscholar.org/29c2/42b2b73c376a61344877d5488f33e066ecc8.pdf?_ga=2.254762891.2010008061.1593351615-150437918.1586869794)
+6. 2017-EUROSYS：[DangSan - Scalable Use-after-free Detection](https://doi.org/10.1145/3064176.3064211)
+7. 2017-USENIX：[CAB-Fuzz：Practical Concolic Testing Techniques for {COTS} Operating Systems](https://www.usenix.org/system/files/conference/atc17/atc17-kim.pdf)
+8. 2017-CCS：[DIFUZE-Interface Aware Fuzzing for Kernel Drivers](https://acmccs.github.io/papers/p2123-corinaA.pdf) — 【[note](https://www.jianshu.com/p/670b141d1b8d)】【[tool-difuze](https://github.com/ucsb-seclab/difuze)】
+9. 2017-USENIX：[Digtool- A Virtualization-Based Framework for Detecting Kernel Vulnerabilities-usenix](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-pan.pdf) — 【[note](https://www.jianshu.com/p/3cc85231657d)】
+10. 2017-USENIX：[How Double-Fetch Situations turn into DoubleFetch](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-wang.pdf) — 【[note](http://www.inforsec.org/wp/?p=2049)】
+11. 2017-USENIX：[DR. CHECKER- A Soundy Analysis for Linux Kernel Drivers](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-machiry.pdf)
+12. 2017-USENIX：[kAFL- Hardware-Assisted Feedback Fuzzing for OS Kernels](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf) — 【[note](https://www.jianshu.com/u/cd49be7bd6b5)】【[tool-kAFL](https://github.com/RUB-SysSec/kAFL)】
+13. 2018-S&P：[DEADLINE-Precise and Scalable Detection of Double-Fetch Bugs in OS Kernels](http://www-users.cs.umn.edu/~kjlu/papers/deadline.pdf) — 【[note](https://www.jianshu.com/p/e4084b2c7c16)】
+14. 2018-CCS：[Check It Again- Detecting Lacking-Recheck Bugs in OS Kernels ](https://www-users.cs.umn.edu/~kjlu/papers/lrsan.pdf)— 【[note](https://www.jianshu.com/p/2f8df6082b1d)】
+15. 2018-USENIX：[MoonShine：Optimizing OS Fuzzer Seed Selection with Trace Distillation](http://www.cs.columbia.edu/~suman/docs/moonshine.pdf) — 【[note](https://www.jianshu.com/p/7e90ad222acf)】【[tool-moonshine](https://github.com/shankarapailoor/moonshine)】
+16. 2018-NDSS：[K-Miner: Uncovering Memory Corruption in Linux](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_05A-1_Gens_paper.pdf) — 【[note](https://blog.csdn.net/u012332816/article/details/79795643)】
+17. 2019-S&P：[Razzer：Finding Kernel Race Bugs through Fuzzing](https://lifeasageek.github.io/papers/jeong-razzer.pdf) — 【[note](https://www.jianshu.com/p/43ced9660257)】【[tool-razzer](https://github.com/compsec-snu/razzer)】
+18. 2019-WOOT：[Unicorefuzz- On the Viability of Emulation for Kernelspace Fuzzing](https://www.usenix.org/system/files/woot19-paper_maier.pdf) — 【[tool-unicorefuzz](https://github.com/fgsect/unicorefuzz)】
+19. 2019-FSE：[Detecting Concurrency Memory Corruption Vulnerabilities](https://dl.acm.org/doi/10.1145/3338906.3338927)
+20. 2019-S&P：[Fuzzing File Systems via Two-Dimensional Input Space Exploration](https://taesoo.kim/pubs/2019/xu:janus.pdf) — 【[note](https://www.jianshu.com/p/23c3e41254b6)】 【[note2](https://blog.csdn.net/RainyD4y/article/details/106892751)】
+21. 2019-USENIX：[Detecting Missing-Check Bugs via Semantic- and Context-Aware Criticalness and Constraints Inferences](https://www.usenix.org/conference/usenixsecurity19/presentation/lu)
+22. 2019-USENIX：[Effective Static Analysis of Concurrency Use-After-Free Bugs in Linux Device Drivers](https://www.usenix.org/conference/atc19/presentation/bai) — 【[note](https://securitygossip.com/blog/2019/11/22/effective-static-analysis-of-concurrency-use-after-free-bugs-in-linux-device-drivers/)】
+23. 2019-NDSS：[PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf) — 【[note](https://www.jianshu.com/p/34568906d900)】
+24. 2018-USENIX-ATC：[DSAC: Effective Static Analysis of Sleep-in-Atomic-Context Bugs in Kernel Modules](https://www.usenix.org/system/files/conference/atc18/atc18-bai.pdf)
 25. 2020-TOCS：[Effective Detection of Sleep-in-atomic-context Bugs in the Linux Kernel](https://dl.acm.org/doi/pdf/10.1145/3381990)
-26. 2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/) — [[note](https://blog.csdn.net/wcventure/article/details/105281874)]
+26. 2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/) — 【[note](https://blog.csdn.net/wcventure/article/details/105281874)】
 27. 2020-S&P：[Krace: Data Race Fuzzing for Kernel File Systems](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b568/1iqVRYHTi24)
 
 #### （3）kernel defense
@@ -96,7 +96,7 @@ Keep updating...
 18. 2016-OSDI：[Light-Weight Contexts - An OS Abstraction for Safety and Performance](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/litton)
 19. 2016-OSDI：[EbbRT - A Framework for Building Per-Application Library Operating Systems](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/schatzberg)
 20. 2017-EUROSYS：[A Characterization of State Spill in Modern Operating Systems](https://doi.org/10.1145/3064176.3064205)
-21. 2017-EUROSYS：[kRˆX: Comprehensive Kernel Protection Against Just-In-Time Code Reuse](https://doi.org/10.1145/3064176.3064216) [[slides](http://www.cs.columbia.edu/~theofilos/files/slides/krx.pdf)]
+21. 2017-EUROSYS：[kRˆX: Comprehensive Kernel Protection Against Just-In-Time Code Reuse](https://doi.org/10.1145/3064176.3064216) 【[slides](http://www.cs.columbia.edu/~theofilos/files/slides/krx.pdf)】
 22. 2017-NDSS：[PT-Rand - Practical Mitigation of Data-only Attacks against Page Tables](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/pt-rand-practical-mitigation-data-only-attacks-against-page-tables/)
 23. 2017-S&P：[NORAX - Enabling Execute-Only Memory for COTS Binaries on AArch64](https://doi.org/10.1109/SP.2017.30)
 24. 2017-CCS：[FreeGuard - A Faster Secure Heap Allocator](https://doi.org/10.1145/3133956.3133957)

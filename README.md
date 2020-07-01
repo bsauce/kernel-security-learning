@@ -39,10 +39,10 @@ Keep updating...
 4. 2016-CCS：[Breaking Kernel Address Space Layout Randomization with Intel TSX](https://doi.org/10.1145/2976749.2978321)
 5. 2017-CCS：[SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits](https://acmccs.github.io/papers/p2139-youA.pdf)
 6. 2017-NDSS：[Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying](https://www-users.cs.umn.edu/~kjlu/papers/tss.pdf) — 【[note](https://www.jianshu.com/p/636db0e5d246)】
-7. 2018-USENIX：[FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wu_0.pdf) — 【[note](https://www.jianshu.com/p/cfe7c9f7e852)】
-8. 2019-USENIX：[KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf) — 【[note](https://www.jianshu.com/p/53570db6fcba)】
-9. 2019-CCS：[SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019](http://www.personal.psu.edu/yxc431/publications/SLAKE.pdf) — 【[note](https://www.jianshu.com/p/d731cd87c6f4)】
-10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】【[note2](https://securitygossip.com/blog/2020/04/03/koobe-towards-facilitating-exploit-generation-of-kernel-out-of-bounds-write-vulnerabilities/)】
+7. 2018-USENIX：[FUZE-Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wu_0.pdf) — 【[note](https://www.jianshu.com/p/cfe7c9f7e852)】【[tool-FUZE](https://github.com/ww9210/Linux_kernel_exploits)】
+8. 2019-USENIX：[KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf) — 【[note](https://www.jianshu.com/p/53570db6fcba)】【[tool-KEPLER](https://github.com/ww9210/kepler-cfhp)】
+9. 2019-CCS：[SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019](http://www.personal.psu.edu/yxc431/publications/SLAKE.pdf) — 【[note](https://www.jianshu.com/p/d731cd87c6f4)】【[tool-SLAKE](https://github.com/chenyueqi/SLAKE)】
+10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】【[note2](https://securitygossip.com/blog/2020/04/03/koobe-towards-facilitating-exploit-generation-of-kernel-out-of-bounds-write-vulnerabilities/)】【[tool-KOOBE](https://github.com/seclab-ucr/KOOBE)】
 
 #### （2）kernel vulerability detection
 

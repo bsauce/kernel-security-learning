@@ -43,6 +43,7 @@ Keep updating...
 8. 2019-USENIX：[KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf) — 【[note](https://www.jianshu.com/p/53570db6fcba)】【[tool-KEPLER](https://github.com/ww9210/kepler-cfhp)】
 9. 2019-CCS：[SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel-CCS2019](http://www.personal.psu.edu/yxc431/publications/SLAKE.pdf) — 【[note](https://www.jianshu.com/p/d731cd87c6f4)】【[tool-SLAKE](https://github.com/chenyueqi/SLAKE)】
 10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】【[note2](https://securitygossip.com/blog/2020/04/03/koobe-towards-facilitating-exploit-generation-of-kernel-out-of-bounds-write-vulnerabilities/)】【[tool-KOOBE](https://github.com/seclab-ucr/KOOBE)】
+11. 2020-CCS：[A Systematic Study of Elastic Objects in Kernel Exploitation](http://www.personal.psu.edu/yxc431/publications/ELOISE.pdf)
 
 #### （2）kernel vulerability detection
 
@@ -73,8 +74,11 @@ Keep updating...
 25. 2019-NDSS：[PeriScope：An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf) — 【[note](https://www.jianshu.com/p/34568906d900)】【[tool-periscope](https://github.com/securesystemslab/periscope)】
 26. 2018-USENIX-ATC：[DSAC: Effective Static Analysis of Sleep-in-Atomic-Context Bugs in Kernel Modules](https://www.usenix.org/system/files/conference/atc18/atc18-bai.pdf)
 27. 2020-TOCS：[Effective Detection of Sleep-in-atomic-context Bugs in the Linux Kernel](https://dl.acm.org/doi/pdf/10.1145/3381990)
-28. 2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/) — 【[note](https://blog.csdn.net/wcventure/article/details/105281874)】【[note2](https://securitygossip.com/blog/2020/05/09/hfl-hybrid-fuzzing-on-the-linux-kernel/)】
-29. 2020-S&P：[Krace: Data Race Fuzzing for Kernel File Systems](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b568/1iqVRYHTi24)
+28. 2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/) — 【[note](https://blog.csdn.net/wcventure/article/details/105281874)】【[note2](https://securitygossip.com/blog/2020/05/09/hfl-hybrid-fuzzing-on-the-linux-kernel/)】【[note3](https://mp.weixin.qq.com/s/RazaTgtrgrKfCFRKlBHyww)】
+29. 2020-S&P：[Krace: Data Race Fuzzing for Kernel File Systems](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b568/1iqVRYHTi24) — 【[note](https://securitygossip.com/blog/2020/06/19/krace-data-race-fuzzing-for-kernel-file-systems/)】
+30. 2020-USENIX：Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints —— [presentation](https://www.usenix.org/conference/usenixsecurity20/presentation/song)
+31. 2020-USENIX：[Muzz: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://www.usenix.org/system/files/sec20-chen-hongxu.pdf) —— 【[note](https://securitygossip.com/blog/2020/09/18/muzz-thread-aware-grey-box-fuzzing-for-effective-bug-hunting-in-multithreaded-programs/)】
+32. 2020-CCS：[Exaggerated Error Handling Hurts! An In-Depth Study and Context-Aware Detection](https://www-users.cs.umn.edu/~kjlu/papers/eecatch.pdf) 【[note](https://securitygossip.com/blog/2020/08/04/exaggerated-error-handling-hurts-an-in-depth-study-and-context-aware-detection/)】
 
 #### （3）kernel defense
 
@@ -113,15 +117,16 @@ Keep updating...
 33. 2019-USENIX：[LXDs - Towards Isolation of Kernel Subsystems](https://www.usenix.org/conference/atc19/presentation/narayanan)
 34. 2019-USENIX：[SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization](https://www.usenix.org/conference/usenixsecurity19/presentation/wang) 
 35. 2020-S&P：[xMP: Selective Memory Protection for Kernel and User Space](https://www.computer.org/csdl/proceedings-article/sp/2020/349700a603/1iqVRnCoPjq)
-36. 2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG)
+36. 2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG) —— 【[note](https://securitygossip.com/blog/2020/06/12/seimi-efficient-and-secure-smap-enabled-intra-process-memory-isolation/)】
 
-##### other resources：
+other resources：
 
 1. [security things in every version of Linux mainline](https://outflux.net/blog/)
 2. [PaX code analysis](https://github.com/hardenedlinux/grsecurity-101-tutorials/tree/master/grsec-code-analysis)
 3. [A Decade of Linux Kernel Vulnerabilities, their Mitigation and Open Problems-2017](https://github.com/maxking/linux-vulnerabilities-10-years)
-4. [linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
-5. [The State of Kernel Self Protection-2018](https://outflux.net/slides/2018/lca/kspp.pdf)
+4. [10_years_of_linux_security_by_grsecurity_2020](https://grsecurity.net/10_years_of_linux_security.pdf)—— security mechanism timeline
+5. [linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
+6. [The State of Kernel Self Protection-2018](https://outflux.net/slides/2018/lca/kspp.pdf)
 
 #### （4） Android
 

@@ -79,6 +79,7 @@ Keep updating...
 30. 2020-USENIX：Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints —— [presentation](https://www.usenix.org/conference/usenixsecurity20/presentation/song)
 31. 2020-USENIX：[Muzz: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://www.usenix.org/system/files/sec20-chen-hongxu.pdf) —— 【[note](https://securitygossip.com/blog/2020/09/18/muzz-thread-aware-grey-box-fuzzing-for-effective-bug-hunting-in-multithreaded-programs/)】
 32. 2020-CCS：[Exaggerated Error Handling Hurts! An In-Depth Study and Context-Aware Detection](https://www-users.cs.umn.edu/~kjlu/papers/eecatch.pdf) 【[note](https://securitygossip.com/blog/2020/08/04/exaggerated-error-handling-hurts-an-in-depth-study-and-context-aware-detection/)】
+33. 2020-FSE：[UBITect: A Precise and Scalable Method to Detect Use-Before-Initialization Bugs in Linux Kernel](https://www.cs.ucr.edu/~csong/fse20-ubitect.pdf) —— 【[note](https://securitygossip.com/blog/2020/10/15/ubitect-a-precise-and-scalable-method-to-detect-use-before-initialization-bugs-in-linux-kernel/)】
 
 #### （3）kernel defense
 
@@ -118,7 +119,6 @@ Keep updating...
 34. 2019-USENIX：[SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization](https://www.usenix.org/conference/usenixsecurity19/presentation/wang) 
 35. 2020-S&P：[xMP: Selective Memory Protection for Kernel and User Space](https://www.computer.org/csdl/proceedings-article/sp/2020/349700a603/1iqVRnCoPjq)
 36. 2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG) —— 【[note](https://securitygossip.com/blog/2020/06/12/seimi-efficient-and-secure-smap-enabled-intra-process-memory-isolation/)】
-37. 2020-FSE：[UBITect: A Precise and Scalable Method to Detect Use-Before-Initialization Bugs in Linux Kernel](https://www.cs.ucr.edu/~csong/fse20-ubitect.pdf) —— 【[note](https://securitygossip.com/blog/2020/10/15/ubitect-a-precise-and-scalable-method-to-detect-use-before-initialization-bugs-in-linux-kernel/)】
 
 other resources：
 

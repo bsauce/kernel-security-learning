@@ -43,7 +43,7 @@ Keep updating...
 8. 2019-USENIX：[KEPLER-Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf) — 【[note](https://www.jianshu.com/p/53570db6fcba)】【[tool-KEPLER](https://github.com/ww9210/kepler-cfhp)】
 9. 2019-CCS：[SLAKE-Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel](http://www.personal.psu.edu/yxc431/publications/SLAKE.pdf) — 【[note](https://www.jianshu.com/p/d731cd87c6f4)】【[tool-SLAKE](https://github.com/chenyueqi/SLAKE)】
 10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】【[note2](https://securitygossip.com/blog/2020/04/03/koobe-towards-facilitating-exploit-generation-of-kernel-out-of-bounds-write-vulnerabilities/)】【[tool-KOOBE](https://github.com/seclab-ucr/KOOBE)】
-11. 2020-CCS：[A Systematic Study of Elastic Objects in Kernel Exploitation](http://www.personal.psu.edu/yxc431/publications/ELOISE.pdf) — 【[note](https://securitygossip.com/blog/2020/11/03/a-systematic-study-of-elastic-objects-in-kernel-exploitation/)】
+11. 2020-CCS：[A Systematic Study of Elastic Objects in Kernel Exploitation](http://www.personal.psu.edu/yxc431/publications/ELOISE.pdf) — 【[note](https://www.jianshu.com/p/982b42f3671f)】【[note2](https://securitygossip.com/blog/2020/11/03/a-systematic-study-of-elastic-objects-in-kernel-exploitation/)】
 12. 2020-WOOT：[Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers](https://sefcom.asu.edu/publications/leak-kptr-woot20.pdf)
 
 #### （2）kernel vulerability detection

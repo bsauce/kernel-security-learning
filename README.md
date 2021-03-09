@@ -59,7 +59,6 @@ Keep updating...
 8. 2017-EUROSYS：[DangSan - Scalable Use-after-free Detection](https://doi.org/10.1145/3064176.3064211) — 【[tool-dangsan](https://github.com/vusec/dangsan)】
 9. 2017-USENIX-ATC：[CAB-Fuzz：Practical Concolic Testing Techniques for {COTS} Operating Systems](https://www.usenix.org/system/files/conference/atc17/atc17-kim.pdf)
 10. 2017-CCS：[DIFUZE-Interface Aware Fuzzing for Kernel Drivers](https://acmccs.github.io/papers/p2123-corinaA.pdf) — 【[note](https://www.jianshu.com/p/670b141d1b8d)】【[tool-difuze](https://github.com/ucsb-seclab/difuze)】
-11. 2017-CCS：[SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits](https://dl.acm.org/doi/10.1145/3133956.3134085)
 12. 2017-USENIX：[Digtool- A Virtualization-Based Framework for Detecting Kernel Vulnerabilities-usenix](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-pan.pdf) — 【[note](https://www.jianshu.com/p/3cc85231657d)】【[note2](https://mp.weixin.qq.com/s/RFWqx0LXWuHcJNbb8lrjFA)】【[note3](http://yama0xff.com/2019/02/15/Digtool-A-Virtualization-Based-Framework-for-Detecting-Kernel-Vulnerabilities/)】【[note4](https://securitygossip.com/blog/2018/10/09/digtool-a-virtualization-based-framework-for-detecting-kernel-vulnerabilities/)】
 13. 2017-USENIX：[How Double-Fetch Situations turn into DoubleFetch](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-wang.pdf) — 【[note](http://www.inforsec.org/wp/?p=2049)】【[tool](https://github.com/wpengfei/double_fetch_cocci)】
 14. 2017-USENIX：[DR. CHECKER- A Soundy Analysis for Linux Kernel Drivers](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-machiry.pdf) — 【[tool-dr_checker](https://github.com/ucsb-seclab/dr_checker)】
@@ -79,13 +78,13 @@ Keep updating...
 28. 2020-TOCS：[Effective Detection of Sleep-in-atomic-context Bugs in the Linux Kernel](https://dl.acm.org/doi/pdf/10.1145/3381990)
 29. 2020-NDSS：[HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/hfl-hybrid-fuzzing-on-the-linux-kernel/) — 【[note](https://blog.csdn.net/wcventure/article/details/105281874)】【[note2](https://securitygossip.com/blog/2020/05/09/hfl-hybrid-fuzzing-on-the-linux-kernel/)】【[note3](https://mp.weixin.qq.com/s/RazaTgtrgrKfCFRKlBHyww)】
 30. 2020-S&P：[Krace: Data Race Fuzzing for Kernel File Systems](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b568/1iqVRYHTi24) — 【[note](https://securitygossip.com/blog/2020/06/19/krace-data-race-fuzzing-for-kernel-file-systems/)】
-31. 2020-USENIX：Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints —— [presentation](https://www.usenix.org/conference/usenixsecurity20/presentation/song)
-32. 2020-USENIX：[Muzz: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://www.usenix.org/system/files/sec20-chen-hongxu.pdf) —— 【[note](https://securitygossip.com/blog/2020/09/18/muzz-thread-aware-grey-box-fuzzing-for-effective-bug-hunting-in-multithreaded-programs/)】
-33. 2020-CCS：[Exaggerated Error Handling Hurts! An In-Depth Study and Context-Aware Detection](https://www-users.cs.umn.edu/~kjlu/papers/eecatch.pdf) 【[note](https://securitygossip.com/blog/2020/08/04/exaggerated-error-handling-hurts-an-in-depth-study-and-context-aware-detection/)】
-34. 2020-FSE：[UBITect: A Precise and Scalable Method to Detect Use-Before-Initialization Bugs in Linux Kernel](https://www.cs.ucr.edu/~csong/fse20-ubitect.pdf) —— 【[note](https://securitygossip.com/blog/2020/10/15/ubitect-a-precise-and-scalable-method-to-detect-use-before-initialization-bugs-in-linux-kernel/)】
+31. 2020-USENIX：Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints — [presentation](https://www.usenix.org/conference/usenixsecurity20/presentation/song)
+32. 2020-USENIX：[Muzz: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://www.usenix.org/system/files/sec20-chen-hongxu.pdf) — 【[note](https://securitygossip.com/blog/2020/09/18/muzz-thread-aware-grey-box-fuzzing-for-effective-bug-hunting-in-multithreaded-programs/)】
+33. 2020-CCS：[Exaggerated Error Handling Hurts! An In-Depth Study and Context-Aware Detection](https://www-users.cs.umn.edu/~kjlu/papers/eecatch.pdf) —【[note](https://securitygossip.com/blog/2020/08/04/exaggerated-error-handling-hurts-an-in-depth-study-and-context-aware-detection/)】
+34. 2020-FSE：[UBITect: A Precise and Scalable Method to Detect Use-Before-Initialization Bugs in Linux Kernel](https://www.cs.ucr.edu/~csong/fse20-ubitect.pdf) — 【[note](https://securitygossip.com/blog/2020/10/15/ubitect-a-precise-and-scalable-method-to-detect-use-before-initialization-bugs-in-linux-kernel/)】
 35. 2020-LPC：[KCSAN-Data-race detection in the Linux kernel](https://www.linuxplumbersconf.org/event/7/contributions/647/attachments/549/972/LPC2020-KCSAN.pdf)
-36. [2021-NDSS](https://www.ndss-symposium.org/ndss-program/ndss-2021/)：[Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-4_24416_paper.pdf) —— 【[note](https://securitygossip.com/blog/2021/01/12/detecting-kernel-memory-leaks-in-specialized-modules-with-ownership-reasoning/)】
-37. 2021-NDSS：[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf) —— 【[note](https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw)】
+36. [2021-NDSS](https://www.ndss-symposium.org/ndss-program/ndss-2021/)：[Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-4_24416_paper.pdf) — 【[note](https://securitygossip.com/blog/2021/01/12/detecting-kernel-memory-leaks-in-specialized-modules-with-ownership-reasoning/)】
+37. 2021-NDSS：[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf) — 【[note](https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw)】
 
 #### （3）kernel defense
 
@@ -148,6 +147,10 @@ other resources：
 1. [Linux kernel 4.20 BPF 整数溢出漏洞分析](https://www.cnblogs.com/bsauce/p/11560224.html)
 2. [【CVE-2017-16995】Linux ebpf模块整数扩展问题导致提权漏洞分析](https://www.cnblogs.com/bsauce/p/11583310.html)
 3. [【CVE-2017-7184】Linux xfrm模块越界读写提权漏洞分析](https://www.cnblogs.com/bsauce/p/11634185.html)
+4. [【kernel exploit】CVE-2017-11176 竞态Double-Free漏洞调试](https://bsauce.github.io/2021/02/21/CVE-2017-11176/)
+5. [【kernel exploit】CVE-2020-8835：eBPF verifier 错误处理导致越界读写](https://www.cnblogs.com/bsauce/p/14123111.html)
+6. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
+7. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
 
 
 
@@ -179,4 +182,3 @@ other resources：
 [linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation)
 
 [GoSSIP_Software Security Group](https://securitygossip.com/blog/archives/)
-

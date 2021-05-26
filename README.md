@@ -46,7 +46,7 @@ Keep updating...
 10. 2020-USENIX：[KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/conference/usenixsecurity20/presentation/chen-weiteng) — 【[note](https://www.jianshu.com/p/24cb664a2811)】【[note2](https://securitygossip.com/blog/2020/04/03/koobe-towards-facilitating-exploit-generation-of-kernel-out-of-bounds-write-vulnerabilities/)】【[tool-KOOBE](https://github.com/seclab-ucr/KOOBE)】
 11. 2020-CCS：[A Systematic Study of Elastic Objects in Kernel Exploitation](http://www.personal.psu.edu/yxc431/publications/ELOISE.pdf) — 【[note](https://www.jianshu.com/p/982b42f3671f)】【[note2](https://securitygossip.com/blog/2020/11/03/a-systematic-study-of-elastic-objects-in-kernel-exploitation/)】【[tool-ELOISE](https://github.com/chenyueqi/w2l)】
 12. 2020-WOOT：[Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers](https://sefcom.asu.edu/publications/leak-kptr-woot20.pdf)
-13. 2021-USENIX：[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan)
+13. 2021-USENIX：[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan) — 【[note](https://bsauce.github.io/2021/05/26/USENIX-2021-EXPRACE/)】
 
 #### （2）kernel vulerability detection
 
@@ -125,7 +125,7 @@ Keep updating...
 33. 2019-USENIX：[LXDs - Towards Isolation of Kernel Subsystems](https://www.usenix.org/conference/atc19/presentation/narayanan)
 34. 2019-USENIX：[SafeHidden: An Efficient and Secure Information Hiding Technique Using Re-randomization](https://www.usenix.org/conference/usenixsecurity19/presentation/wang) 
 35. 2020-S&P：[xMP: Selective Memory Protection for Kernel and User Space](https://www.computer.org/csdl/proceedings-article/sp/2020/349700a603/1iqVRnCoPjq)
-36. 2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG) —— 【[note](https://securitygossip.com/blog/2020/06/12/seimi-efficient-and-secure-smap-enabled-intra-process-memory-isolation/)】
+36. 2020-S&P：[SEIMI: Efficient and Secure SMAP-Enabled Intra-process Memory Isolation](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b332/1iqVRPB1xbG) — 【[note](https://securitygossip.com/blog/2020/06/12/seimi-efficient-and-secure-smap-enabled-intra-process-memory-isolation/)】
 37. 2021-USENIX：[Undo Workarounds for Kernel Bugs](https://www.usenix.org/conference/usenixsecurity21/presentation/talebi)
 38. 2021-USENIX：[SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening](https://www.usenix.org/conference/usenixsecurity21/presentation/abubakar)
 39. 2021-USENIX：[Preventing Use-After-Free Attacks with Fast Forward Allocation](https://www.usenix.org/conference/usenixsecurity21/presentation/wickman)
@@ -158,6 +158,7 @@ other resources：
 7. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
 8. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
 9. [【kernel exploit】CVE-2021-26708 四字节写特殊竞争UAF转化为内核任意读写](https://bsauce.github.io/2021/04/16/writeup-CVE-2021-26708/)
+10. [【kernel exploit】CVE-2017-7308 AF_PACKET 环形缓冲区溢出漏洞](https://bsauce.github.io/2021/05/19/CVE-2017-7308/)
 
 
 

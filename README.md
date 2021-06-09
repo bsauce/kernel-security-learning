@@ -150,15 +150,17 @@ other resources：
 ## 3. CVE
 
 1. [Linux kernel 4.20 BPF 整数溢出漏洞分析](https://www.cnblogs.com/bsauce/p/11560224.html)
-2. [【CVE-2017-16995】Linux ebpf模块整数扩展问题导致提权漏洞分析](https://www.cnblogs.com/bsauce/p/11583310.html)
+2. [【kernel exploit】CVE-2017-5123 null任意地址写漏洞](https://bsauce.github.io/2021/05/31/CVE-2017-5123/)
 3. [【CVE-2017-7184】Linux xfrm模块越界读写提权漏洞分析](https://www.cnblogs.com/bsauce/p/11634185.html)
-4. [【kernel exploit】CVE-2017-8890 Phoenix Talon漏洞分析与利用](https://bsauce.github.io/2021/03/22/writeup-CVE-2017-8890/)
-5. [【kernel exploit】CVE-2017-11176 竞态Double-Free漏洞调试](https://bsauce.github.io/2021/02/21/CVE-2017-11176/)
-6. [【kernel exploit】CVE-2020-8835：eBPF verifier 错误处理导致越界读写](https://www.cnblogs.com/bsauce/p/14123111.html)
-7. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
-8. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
-9. [【kernel exploit】CVE-2021-26708 四字节写特殊竞争UAF转化为内核任意读写](https://bsauce.github.io/2021/04/16/writeup-CVE-2021-26708/)
-10. [【kernel exploit】CVE-2017-7308 AF_PACKET 环形缓冲区溢出漏洞](https://bsauce.github.io/2021/05/19/CVE-2017-7308/)
+4. [【kernel exploit】CVE-2017-7308 AF_PACKET 环形缓冲区溢出漏洞](https://bsauce.github.io/2021/05/19/CVE-2017-7308/)
+5. [【kernel exploit】CVE-2017-8890 Phoenix Talon漏洞分析与利用](https://bsauce.github.io/2021/03/22/writeup-CVE-2017-8890/)
+6. [【kernel exploit】CVE-2017-11176 竞态Double-Free漏洞调试](https://bsauce.github.io/2021/02/21/CVE-2017-11176/)
+7. [【CVE-2017-16995】Linux ebpf模块整数扩展问题导致提权漏洞分析](https://www.cnblogs.com/bsauce/p/11583310.html)
+8. [【kernel exploit】CVE-2020-8835：eBPF verifier 错误处理导致越界读写](https://www.cnblogs.com/bsauce/p/14123111.html)
+9. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
+10. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
+11. [【kernel exploit】CVE-2021-26708 四字节写特殊竞争UAF转化为内核任意读写](https://bsauce.github.io/2021/04/16/writeup-CVE-2021-26708/)
+12. [【kernel exploit】CVE-2021-31440 eBPF边界计算错误漏洞](https://bsauce.github.io/2021/06/09/CVE-2021-31440/)
 
 
 

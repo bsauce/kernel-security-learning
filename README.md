@@ -137,7 +137,8 @@ other resources：
 3. [A Decade of Linux Kernel Vulnerabilities, their Mitigation and Open Problems-2017](https://github.com/maxking/linux-vulnerabilities-10-years)
 4. [10_years_of_linux_security_by_grsecurity_2020](https://grsecurity.net/10_years_of_linux_security.pdf)—— security mechanism timeline
 5. [linux-kernel-defence-map](https://github.com/a13xp0p0v/linux-kernel-defence-map)
-6. [The State of Kernel Self Protection-2018](https://outflux.net/slides/2018/lca/kspp.pdf)
+6. [linux_mitigations](https://github.com/nccgroup/exploit_mitigations/blob/master/linux_mitigations.md)
+7. [The State of Kernel Self Protection-2018](https://outflux.net/slides/2018/lca/kspp.pdf)
 
 #### （4） Android
 

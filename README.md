@@ -87,7 +87,8 @@ Keep updating...
 35. [2021-NDSS](https://www.ndss-symposium.org/ndss-program/ndss-2021/)：[Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-4_24416_paper.pdf) — 【[note](https://securitygossip.com/blog/2021/01/12/detecting-kernel-memory-leaks-in-specialized-modules-with-ownership-reasoning/)】
 36. 2021-NDSS：[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf) — 【[note](https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw)】
 37. 2021-USENIX：[Detecting Kernel Refcount Bugs with Two-Dimensional Consistency Checking](https://www.usenix.org/conference/usenixsecurity21/presentation/tan)
-38. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】
+38. 2021-USENIX：[Understanding and Detecting Disordered Error Handling with Precise Function Pairing](https://www.usenix.org/conference/usenixsecurity21/presentation/wu-qiushi)
+39. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】
 
 #### （3）kernel defense
 
@@ -152,18 +153,26 @@ other resources：
 ## 3. CVE
 
 1. [Linux kernel 4.20 BPF 整数溢出漏洞分析](https://www.cnblogs.com/bsauce/p/11560224.html)
-2. [【kernel exploit】CVE-2017-5123 null任意地址写漏洞](https://bsauce.github.io/2021/05/31/CVE-2017-5123/)
-3. [【CVE-2017-7184】Linux xfrm模块越界读写提权漏洞分析](https://www.cnblogs.com/bsauce/p/11634185.html)
-4. [【kernel exploit】CVE-2017-7308 AF_PACKET 环形缓冲区溢出漏洞](https://bsauce.github.io/2021/05/19/CVE-2017-7308/)
-5. [【kernel exploit】CVE-2017-8890 Phoenix Talon漏洞分析与利用](https://bsauce.github.io/2021/03/22/writeup-CVE-2017-8890/)
-6. [【kernel exploit】CVE-2017-11176 竞态Double-Free漏洞调试](https://bsauce.github.io/2021/02/21/CVE-2017-11176/)
-7. [【CVE-2017-16995】Linux ebpf模块整数扩展问题导致提权漏洞分析](https://www.cnblogs.com/bsauce/p/11583310.html)
-8. [【kernel exploit】CVE-2017-1000112 UDP报文处理不一致导致堆溢出](https://bsauce.github.io/2021/06/18/CVE-2017-1000112/)
-9. [【kernel exploit】CVE-2020-8835：eBPF verifier 错误处理导致越界读写](https://www.cnblogs.com/bsauce/p/14123111.html)
-10. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
-11. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
-12. [【kernel exploit】CVE-2021-26708 四字节写特殊竞争UAF转化为内核任意读写](https://bsauce.github.io/2021/04/16/writeup-CVE-2021-26708/)
-13. [【kernel exploit】CVE-2021-31440 eBPF边界计算错误漏洞](https://bsauce.github.io/2021/06/09/CVE-2021-31440/)
+2. [【kernel exploit】CVE-2016-9793 错误处理负值导致访问用户空间](https://blog.csdn.net/panhewu9919/article/details/120164051)
+3. [【kernel exploit】CVE-2017-5123 null任意地址写漏洞](https://bsauce.github.io/2021/05/31/CVE-2017-5123/)
+4. [【CVE-2017-7184】Linux xfrm模块越界读写提权漏洞分析](https://www.cnblogs.com/bsauce/p/11634185.html)
+5. [【kernel exploit】CVE-2017-6074 DCCP拥塞控制协议Double-Free提权分析](https://bsauce.github.io/2021/09/17/CVE-2017-6074/)
+6. [【kernel exploit】CVE-2017-7308 AF_PACKET 环形缓冲区溢出漏洞](https://bsauce.github.io/2021/05/19/CVE-2017-7308/)
+7. [【kernel exploit】CVE-2017-8890 Phoenix Talon漏洞分析与利用](https://bsauce.github.io/2021/03/22/writeup-CVE-2017-8890/)
+8. [【kernel exploit】CVE-2017-11176 竞态Double-Free漏洞调试](https://bsauce.github.io/2021/02/21/CVE-2017-11176/)
+9. [【CVE-2017-16995】Linux ebpf模块整数扩展问题导致提权漏洞分析](https://www.cnblogs.com/bsauce/p/11583310.html)
+10. [【kernel exploit】CVE-2017-1000112 UDP报文处理不一致导致堆溢出](https://bsauce.github.io/2021/06/18/CVE-2017-1000112/)
+11. [【kernel exploit】CVE-2018-5333 空指针引用漏洞](https://blog.csdn.net/panhewu9919/article/details/119153052)
+12. [【kernel exploit】CVE-2019-8956 sctp_sendmsg()空指针引用漏洞](https://blog.csdn.net/panhewu9919/article/details/118557844)
+13. [【kernel exploit】CVE-2019-9213 逻辑漏洞绕过 mmap_min_addr 限制](https://blog.csdn.net/panhewu9919/article/details/118557802)
+14. [【kernel exploit】CVE-2019-15666 xfrm UAF 8字节写NULL提权分析](https://bsauce.github.io/2021/09/14/CVE-2019-15666/)
+15. [【kernel exploit】CVE-2020-8835：eBPF verifier 错误处理导致越界读写](https://www.cnblogs.com/bsauce/p/14123111.html)
+16. [【kernel exploit】BPF漏洞挖掘与CVE-2020-27194 整数溢出漏洞](https://bsauce.github.io/2020/12/14/CVE-2020-27194/)
+17. [【kernel exploit】CVE-2021-3156 sudo漏洞分析与利用](https://bsauce.github.io/2021/02/01/writeup-CVE-2021-3156/)
+18. [【kernel exploit】CVE-2021-26708 四字节写特殊竞争UAF转化为内核任意读写](https://bsauce.github.io/2021/04/16/writeup-CVE-2021-26708/)
+19. [【kernel exploit】CVE-2021-31440 eBPF边界计算错误漏洞](https://bsauce.github.io/2021/06/09/CVE-2021-31440/)
+20. [【kernel exploit】CVE-2021-3490 eBPF 32位边界计算错误漏洞](https://bsauce.github.io/2021/08/31/CVE-2021-3490/)
+21. [【kernel exploit】CVE-2021-22555 2字节堆溢出写0漏洞提权分析](https://bsauce.github.io/2021/09/23/CVE-2021-22555/)
 
 
 

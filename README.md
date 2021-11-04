@@ -89,6 +89,7 @@ Keep updating...
 37. 2021-USENIX：[Detecting Kernel Refcount Bugs with Two-Dimensional Consistency Checking](https://www.usenix.org/conference/usenixsecurity21/presentation/tan)
 38. 2021-USENIX：[Understanding and Detecting Disordered Error Handling with Precise Function Pairing](https://www.usenix.org/conference/usenixsecurity21/presentation/wu-qiushi)
 39. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】
+40. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】
 
 #### （3）kernel defense
 

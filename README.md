@@ -47,6 +47,7 @@ Keep updating...
 11. 2020-CCS：[A Systematic Study of Elastic Objects in Kernel Exploitation](http://www.personal.psu.edu/yxc431/publications/ELOISE.pdf) — 【[note](https://www.jianshu.com/p/982b42f3671f)】【[note2](https://securitygossip.com/blog/2020/11/03/a-systematic-study-of-elastic-objects-in-kernel-exploitation/)】【[tool-ELOISE](https://github.com/chenyueqi/w2l)】
 12. 2020-WOOT：[Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers](https://sefcom.asu.edu/publications/leak-kptr-woot20.pdf)
 13. 2021-USENIX：[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan) — 【[note](https://bsauce.github.io/2021/05/26/USENIX-2021-EXPRACE/)】
+14. 2021-CCS：[Demons in the Shared Kernel: Abstract Resource Attacks Against OS-level Virtualization](https://wenboshen.org/assets/papers/LogicalDoS.pdf) — 【[note](https://mp.weixin.qq.com/s/9qYP2jKvCWymjfUWVWOlCg)】
 
 #### （2）kernel vulerability detection
 
@@ -88,8 +89,12 @@ Keep updating...
 36. 2021-NDSS：[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf) — 【[note](https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw)】
 37. 2021-USENIX：[Detecting Kernel Refcount Bugs with Two-Dimensional Consistency Checking](https://www.usenix.org/conference/usenixsecurity21/presentation/tan)
 38. 2021-USENIX：[Understanding and Detecting Disordered Error Handling with Precise Function Pairing](https://www.usenix.org/conference/usenixsecurity21/presentation/wu-qiushi)
-39. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】
-40. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】
+39. 2021-USENIX：[An Analysis of Speculative Type Confusion Vulnerabilities in the Wild](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner) 
+40. 2021-USENIX：[Static Detection of Unsafe DMA Accesses in Device Drivers](https://www.usenix.org/system/files/sec21-bai.pdf) — 【[note](https://blog.csdn.net/qq_38239282/article/details/120262302)】
+41. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】 【[note2](https://gange666.github.io/2021/09/25/paper_notes/2021-0925-SUTURE%20a4d4fa5d0b284ee7ba496470086f0110/)】
+42. 2021-CCS：[Detecting Missed Security Operations Through Differential Checking of Object-based Similar Paths](https://nesa.zju.edu.cn/download/ldh_pdf_IPPO.pdf) — 【[note](https://blog.ycdxsb.cn/e6c8cbe9.html)】
+43. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】 【[note2](https://www.freebuf.com/articles/292731.html)】
+44. 2021-S&P：[A Novel Dynamic Analysis Infrastructure to Instrument Untrusted Execution Flow Across User-Kernel Spaces](http://www.mysmu.edu/faculty/xhding/publications/oasis-sp21.pdf)
 
 #### （3）kernel defense
 

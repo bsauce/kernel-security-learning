@@ -48,6 +48,8 @@ Keep updating...
 12. 2020-WOOT：[Exploiting Uses of Uninitialized Stack Variables in Linux Kernels to Leak Kernel Pointers](https://sefcom.asu.edu/publications/leak-kptr-woot20.pdf)
 13. 2021-USENIX：[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan) — 【[note](https://bsauce.github.io/2021/05/26/USENIX-2021-EXPRACE/)】
 14. 2021-CCS：[Demons in the Shared Kernel: Abstract Resource Attacks Against OS-level Virtualization](https://wenboshen.org/assets/papers/LogicalDoS.pdf) — 【[note](https://mp.weixin.qq.com/s/9qYP2jKvCWymjfUWVWOlCg)】
+15. 2022-USENIX：[SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel](https://www.usenix.org/system/files/sec22summer_zou.pdf)
+16. 2022-S&P：GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs
 
 #### （2）kernel vulerability detection
 
@@ -179,6 +181,8 @@ other resources：
 19. [【kernel exploit】CVE-2021-31440 eBPF边界计算错误漏洞](https://bsauce.github.io/2021/06/09/CVE-2021-31440/)
 20. [【kernel exploit】CVE-2021-3490 eBPF 32位边界计算错误漏洞](https://bsauce.github.io/2021/08/31/CVE-2021-3490/)
 21. [【kernel exploit】CVE-2021-22555 2字节堆溢出写0漏洞提权分析](https://bsauce.github.io/2021/09/23/CVE-2021-22555/)
+22. [【kernel exploit】CVE-2021-42008 6pack协议解码溢出漏洞利用](https://bsauce.github.io/2021/12/09/CVE-2021-42008/)
+23. [【kernel exploit】CVE-2021-43267 TIPC协议MSG_CRYPTO消息溢出利用](https://bsauce.github.io/2021/12/06/CVE-2021-43267/)
 
 
 

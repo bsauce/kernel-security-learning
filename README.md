@@ -139,6 +139,7 @@ Keep updating...
 37. 2021-USENIX：[Undo Workarounds for Kernel Bugs](https://www.usenix.org/conference/usenixsecurity21/presentation/talebi)
 38. 2021-USENIX：[SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening](https://www.usenix.org/conference/usenixsecurity21/presentation/abubakar)
 39. 2021-USENIX：[Preventing Use-After-Free Attacks with Fast Forward Allocation](https://www.usenix.org/conference/usenixsecurity21/presentation/wickman)
+40. 2022-USENIX：[Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
 
 other resources：
 

@@ -25,6 +25,7 @@ Keep updating...
 15. [linux内核提权系列教程（3）：栈变量未初始化漏洞](https://www.jianshu.com/p/b28b964b9243)
 16. [【linux内核漏洞利用】ret2dir利用方法](https://www.jianshu.com/p/3c662b6163a7)
 17. [【内核漏洞利用】绕过CONFIG_SLAB_FREELIST_HARDENED防护—kernoob两种解法](https://blog.csdn.net/panhewu9919/article/details/111839950)
+18. [【Exploit trick】Linux内核中利用msg_msg结构实现任意地址读写](https://bsauce.github.io/2021/09/05/msg_msg/)
 
 
 

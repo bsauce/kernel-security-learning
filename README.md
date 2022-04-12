@@ -186,6 +186,8 @@ other resources：
 21. [【kernel exploit】CVE-2021-22555 2字节堆溢出写0漏洞提权分析](https://bsauce.github.io/2021/09/23/CVE-2021-22555/)
 22. [【kernel exploit】CVE-2021-42008 6pack协议解码溢出漏洞利用](https://bsauce.github.io/2021/12/09/CVE-2021-42008/)
 23. [【kernel exploit】CVE-2021-43267 TIPC协议MSG_CRYPTO消息溢出利用](https://bsauce.github.io/2021/12/06/CVE-2021-43267/)
+24. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
+25. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
 
 
 

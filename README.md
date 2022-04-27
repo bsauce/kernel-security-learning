@@ -52,6 +52,7 @@ Keep updating...
 15. 2022-USENIX：[SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel](https://www.usenix.org/system/files/sec22summer_zou.pdf)
 16. 2022-USENIX：[Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](http://xinyuxing.org/pub/usenix22.pdf)
 17. 2022-S&P：[GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1A4Q45SVJm0/pdf)
+18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/)
 
 
 #### （2）kernel vulerability detection
@@ -100,6 +101,9 @@ Keep updating...
 42. 2021-CCS：[Detecting Missed Security Operations Through Differential Checking of Object-based Similar Paths](https://nesa.zju.edu.cn/download/ldh_pdf_IPPO.pdf) — 【[note](https://blog.ycdxsb.cn/e6c8cbe9.html)】
 43. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】 【[note2](https://www.freebuf.com/articles/292731.html)】
 44. 2021-S&P：[A Novel Dynamic Analysis Infrastructure to Instrument Untrusted Execution Flow Across User-Kernel Spaces](http://www.mysmu.edu/faculty/xhding/publications/oasis-sp21.pdf)
+45. 2022-NDSS：[An In-depth Analysis of Duplicated Linux Kernel Bug Reports](https://www.ndss-symposium.org/ndss-paper/auto-draft-246/)
+46. 2022-NDSS：[Progressive Scrutiny-Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-249/)
+47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/)
 
 #### （3）kernel defense
 
@@ -189,6 +193,7 @@ other resources：
 23. [【kernel exploit】CVE-2021-43267 TIPC协议MSG_CRYPTO消息溢出利用](https://bsauce.github.io/2021/12/06/CVE-2021-43267/)
 24. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
 25. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
+26. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
 
 
 

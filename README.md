@@ -50,7 +50,7 @@ Keep updating...
 13. 2021-USENIX：[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan) — 【[note](https://bsauce.github.io/2021/05/26/USENIX-2021-EXPRACE/)】
 14. 2021-CCS：[Demons in the Shared Kernel: Abstract Resource Attacks Against OS-level Virtualization](https://wenboshen.org/assets/papers/LogicalDoS.pdf) — 【[note](https://mp.weixin.qq.com/s/9qYP2jKvCWymjfUWVWOlCg)】
 15. 2022-USENIX：[SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel](https://www.usenix.org/system/files/sec22summer_zou.pdf)
-16. 2022-USENIX：[Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](http://xinyuxing.org/pub/usenix22.pdf)
+16. 2022-USENIX：[Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](http://xinyuxing.org/pub/usenix22.pdf) — 【[note](https://bsauce.github.io/2022/05/03/KHeaps/)】
 17. 2022-S&P：[GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1A4Q45SVJm0/pdf)
 18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/)
 

@@ -104,7 +104,7 @@ Keep updating...
 45. 2022-NDSS：[An In-depth Analysis of Duplicated Linux Kernel Bug Reports](https://www.ndss-symposium.org/ndss-paper/auto-draft-246/)
 46. 2022-NDSS：[Progressive Scrutiny-Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-249/)
 47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/)
-48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian)
+48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian) — 【[note](https://bsauce.github.io/2022/05/04/LinKRID/)】
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
 
 #### （3）kernel defense

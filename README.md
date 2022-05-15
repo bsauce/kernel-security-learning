@@ -196,13 +196,16 @@ other resources：
 24. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
 25. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
 26. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
+27. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
 
 
 
 ---
 
 ## 4. Tool
-
+1. [syzkaller 源码阅读笔记1（syz-extract & syz-sysgen）](https://bsauce.github.io/2022/05/13/syzkaller1/)
+2. [syzkaller 源码阅读笔记2（syz-manager）](https://bsauce.github.io/2022/05/14/syzkaller2/)
+3. [syzkaller 源码阅读笔记3（syz-fuzzer）](https://bsauce.github.io/2022/05/15/syzkaller3/)
 
 
 ---

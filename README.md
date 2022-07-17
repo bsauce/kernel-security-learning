@@ -197,7 +197,8 @@ other resources：
 25. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
 26. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
 27. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
-28. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
+28. [【kernel exploit】CVE-2022-1015 nftables 栈溢出漏洞分析与利用](https://bsauce.github.io/2022/07/16/CVE-2022-1015/)
+29. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
 
 
 

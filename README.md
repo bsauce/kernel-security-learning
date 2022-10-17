@@ -193,14 +193,15 @@ other resources：
 20. [【kernel exploit】CVE-2021-3490 eBPF 32位边界计算错误漏洞](https://bsauce.github.io/2021/08/31/CVE-2021-3490/)
 21. [【kernel exploit】CVE-2021-22555 2字节堆溢出写0漏洞提权分析](https://bsauce.github.io/2021/09/23/CVE-2021-22555/)
 22. [【kernel exploit】CVE-2021-41073 内核类型混淆漏洞利用分析](https://bsauce.github.io/2022/07/11/CVE-2021-41073/)
-23. [【kernel exploit】CVE-2021-42008 6pack协议解码溢出漏洞利用](https://bsauce.github.io/2021/12/09/CVE-2021-42008/)
-24. [【kernel exploit】CVE-2021-43267 TIPC协议MSG_CRYPTO消息溢出利用](https://bsauce.github.io/2021/12/06/CVE-2021-43267/)
-25. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
-26. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
-27. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
-28. [【kernel exploit】CVE-2022-1015 nftables 栈溢出漏洞分析与利用](https://bsauce.github.io/2022/07/16/CVE-2022-1015/)
-29. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
-30. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
+23. [【kernel exploit】CVE-2021-4154 错误释放任意file对象-DirtyCred利用](https://bsauce.github.io/2022/10/17/CVE-2021-4154/)
+24. [【kernel exploit】CVE-2021-42008 6pack协议解码溢出漏洞利用](https://bsauce.github.io/2021/12/09/CVE-2021-42008/)
+25. [【kernel exploit】CVE-2021-43267 TIPC协议MSG_CRYPTO消息溢出利用](https://bsauce.github.io/2021/12/06/CVE-2021-43267/)
+26. [【kernel exploit】CVE-2022-0847 Dirty Pipe 漏洞分析与利用](https://bsauce.github.io/2022/04/03/CVE-2022-0847/)
+27. [【kernel exploit】CVE-2022-0185 File System Context 整数溢出漏洞利用](https://bsauce.github.io/2022/04/08/CVE-2022-0185/)
+28. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
+29. [【kernel exploit】CVE-2022-1015 nftables 栈溢出漏洞分析与利用](https://bsauce.github.io/2022/07/16/CVE-2022-1015/)
+30. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
+31. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
 
 
 

@@ -26,6 +26,8 @@ Keep updating...
 16. [【linux内核漏洞利用】ret2dir利用方法](https://www.jianshu.com/p/3c662b6163a7)
 17. [【内核漏洞利用】绕过CONFIG_SLAB_FREELIST_HARDENED防护—kernoob两种解法](https://blog.csdn.net/panhewu9919/article/details/111839950)
 18. [【Exploit trick】Linux内核中利用msg_msg结构实现任意地址读写](https://bsauce.github.io/2021/09/05/msg_msg/)
+19. [【Exploit trick】针对 cred 结构的 cross cache 利用（corCTF 2022-cache-of-castaways）](https://blog.csdn.net/panhewu9919/article/details/127733027)
+20. [【Exploit trick】利用poll_list对象构造kmalloc-32任意释放 (corCTF 2022-CoRJail)](https://blog.csdn.net/panhewu9919/article/details/127804902)
 
 
 

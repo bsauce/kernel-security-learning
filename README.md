@@ -203,9 +203,10 @@ other resources：
 28. [【kernel exploit】CVE-2022-0995 堆溢出1比特置1漏洞利用](https://bsauce.github.io/2022/04/15/CVE-2022-0995/)
 29. [【kernel exploit】CVE-2022-1015 nftables 栈溢出漏洞分析与利用](https://bsauce.github.io/2022/07/16/CVE-2022-1015/)
 30. [【kernel exploit】CVE-2022-2588 Double-free 漏洞 DirtyCred 利用](https://bsauce.github.io/2022/10/21/CVE-2022-2588/)
-31. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
-32. [【kernel exploit】CVE-2022-32250 nftables错误链表操作导致UAF写的漏洞利用](https://bsauce.github.io/2022/11/03/CVE-2022-32250/)
-33. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
+31. [【kernel exploit】CVE-2022-2639 openvswitch模块kmalloc-0x10000堆溢出利用（pipe_buffer任意文件写技术）](https://bsauce.github.io/2022/11/24/CVE-2022-2639/)
+32. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
+33. [【kernel exploit】CVE-2022-32250 nftables错误链表操作导致UAF写的漏洞利用](https://bsauce.github.io/2022/11/03/CVE-2022-32250/)
+34. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
 
 
 

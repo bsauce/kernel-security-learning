@@ -56,6 +56,7 @@ Keep updating...
 17. 2022-S&P：[GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1A4Q45SVJm0/pdf) — 【[tool-GREBE](https://github.com/Markakd/GREBE)】
 18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/)
 19. 2022-CCS：[DirtyCred: Escalating Privilege in Linux Kernel](https://zplin.me/papers/DirtyCred.pdf) — 【[note](https://bsauce.github.io/2022/10/12/DirtyCred/)】
+20. 2023-USENIX：[PSPRAY: Timing Side-Channel based Linux Kernel Heap Exploitation Technique](https://www.usenix.org/system/files/sec23summer_79-lee-prepub.pdf)
 
 
 #### （2）kernel vulerability detection

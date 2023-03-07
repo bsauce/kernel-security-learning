@@ -109,6 +109,8 @@ Keep updating...
 47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/)
 48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian) — 【[note](https://bsauce.github.io/2022/05/04/LinKRID/)】
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
+50. 2023-NDSS：[No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
+51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf)
 
 #### （3）kernel defense
 

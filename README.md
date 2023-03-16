@@ -97,8 +97,8 @@ Keep updating...
 34. 2020-LPC：[KCSAN-Data-race detection in the Linux kernel](https://www.linuxplumbersconf.org/event/7/contributions/647/attachments/549/972/LPC2020-KCSAN.pdf)
 35. [2021-NDSS](https://www.ndss-symposium.org/ndss-program/ndss-2021/)：[Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5B-4_24416_paper.pdf) — 【[note](https://securitygossip.com/blog/2021/01/12/detecting-kernel-memory-leaks-in-specialized-modules-with-ownership-reasoning/)】
 36. 2021-NDSS：[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1B-5_24461_paper.pdf) — 【[note](https://mp.weixin.qq.com/s/LI49ioKYMksguQMqKH1Rcw)】
-37. 2021-USENIX：[Detecting Kernel Refcount Bugs with Two-Dimensional Consistency Checking](https://www.usenix.org/conference/usenixsecurity21/presentation/tan)
-38. 2021-USENIX：[Understanding and Detecting Disordered Error Handling with Precise Function Pairing](https://www.usenix.org/conference/usenixsecurity21/presentation/wu-qiushi)
+37. 2021-USENIX：[Detecting Kernel Refcount Bugs with Two-Dimensional Consistency Checking](https://www.usenix.org/conference/usenixsecurity21/presentation/tan) — 【[note](http://www.hackdig.com/12/hack-237569.htm)】
+38. 2021-USENIX：[Understanding and Detecting Disordered Error Handling with Precise Function Pairing](https://www.usenix.org/conference/usenixsecurity21/presentation/wu-qiushi) — 【[note](https://github.com/GoSSIP-SJTU/dailyPaper/tree/master/G.O.S.S.I.P%20%E5%AD%A6%E6%9C%AF%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90%202021/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%902021-04-30)】
 39. 2021-USENIX：[An Analysis of Speculative Type Confusion Vulnerabilities in the Wild](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner) 
 40. 2021-USENIX：[Static Detection of Unsafe DMA Accesses in Device Drivers](https://www.usenix.org/system/files/sec21-bai.pdf) — 【[note](https://blog.csdn.net/qq_38239282/article/details/120262302)】
 41. 2021-CCS：[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf) — 【[note](https://mp.weixin.qq.com/s/Uik-cjcUHHPkRdtm22NleA)】 【[note2](https://gange666.github.io/2021/09/25/paper_notes/2021-0925-SUTURE%20a4d4fa5d0b284ee7ba496470086f0110/)】
@@ -106,12 +106,12 @@ Keep updating...
 43. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】 【[note2](https://www.freebuf.com/articles/292731.html)】  【[note3](https://zhuanlan.zhihu.com/p/454613247)】
 44. 2021-S&P：[A Novel Dynamic Analysis Infrastructure to Instrument Untrusted Execution Flow Across User-Kernel Spaces](http://www.mysmu.edu/faculty/xhding/publications/oasis-sp21.pdf)
 45. 2022-NDSS：[An In-depth Analysis of Duplicated Linux Kernel Bug Reports](https://www.ndss-symposium.org/ndss-paper/auto-draft-246/)
-46. 2022-NDSS：[Progressive Scrutiny-Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-249/)
-47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/)
-48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian) — 【[note](https://bsauce.github.io/2022/05/04/LinKRID/)】
+46. 2022-NDSS：[Progressive Scrutiny-Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-249/) — 【[note](https://mp.weixin.qq.com/s/fnesSNqxdAjAHEiA6-guJw)】
+47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/) — 【[note](https://mp.weixin.qq.com/s/2zOnYyJcyLps7hjodKegRQ)】 【[note2](https://blog.csdn.net/qq_29278173/article/details/129582203)】
+48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian) — 【[note](https://bsauce.github.io/2022/05/04/LinKRID/)】 【[note2](https://mp.weixin.qq.com/s/zmieL1-b5nOUq5Lfo6nqKA)】
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
 50. 2023-NDSS：[No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
-51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf)
+51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf) — 【[note](https://mp.weixin.qq.com/s/M-aeEK0fG47JNvOt2FOPxA)】
 
 #### （3）kernel defense
 

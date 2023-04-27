@@ -57,6 +57,8 @@ Keep updating...
 18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/)
 19. 2022-CCS：[DirtyCred: Escalating Privilege in Linux Kernel](https://zplin.me/papers/DirtyCred.pdf) — 【[note](https://bsauce.github.io/2022/10/12/DirtyCred/)】
 20. 2023-USENIX：[PSPRAY: Timing Side-Channel based Linux Kernel Heap Exploitation Technique](https://www.usenix.org/system/files/sec23summer_79-lee-prepub.pdf) — 【[note](https://bsauce.github.io/2023/04/16/PSPRAY/)】 【[note2](https://mstmoonshine.github.io/p/pspray/)】
+21. 2023-S&P：[AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://yuanxzhang.github.io/paper/aem-oakland23.pdf) — 【[note](https://blog.wohin.me/posts/paper-aem/)】
+22. 2023-S&P：When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel
 
 
 #### （2）kernel vulerability detection
@@ -112,6 +114,9 @@ Keep updating...
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
 50. 2023-NDSS：[No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
 51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf) — 【[note](https://mp.weixin.qq.com/s/M-aeEK0fG47JNvOt2FOPxA)】
+52. 2023-S&P：SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers
+53. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
+54. 2023-S&P：SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing
 
 #### （3）kernel defense
 
@@ -155,6 +160,8 @@ Keep updating...
 38. 2021-USENIX：[SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening](https://www.usenix.org/conference/usenixsecurity21/presentation/abubakar)
 39. 2021-USENIX：[Preventing Use-After-Free Attacks with Fast Forward Allocation](https://www.usenix.org/conference/usenixsecurity21/presentation/wickman)
 40. 2022-USENIX：[Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
+41. 2023-S&P：EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation
+42. 2023-S&P：[uSwitch: Fast Kernel Context Isolation with Implicit Context Switches](https://www.cs.purdue.edu/homes/pfonseca/papers/sp23-uswitch.pdf)
 
 other resources：
 

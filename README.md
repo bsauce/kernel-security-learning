@@ -53,7 +53,7 @@ Keep updating...
 14. 2021-CCS：[Demons in the Shared Kernel: Abstract Resource Attacks Against OS-level Virtualization](https://wenboshen.org/assets/papers/LogicalDoS.pdf) — 【[note](https://mp.weixin.qq.com/s/9qYP2jKvCWymjfUWVWOlCg)】
 15. 2022-USENIX：[SyzScope: Revealing High-Risk Security Impacts of Fuzzer-Exposed Bugs in Linux kernel](https://www.usenix.org/system/files/sec22summer_zou.pdf) — 【[toolSyzScope](https://github.com/plummm/SyzScope)】
 16. 2022-USENIX：[Playing for K(H)eaps: Understanding and Improving Linux Kernel Exploit Reliability](http://xinyuxing.org/pub/usenix22.pdf) — 【[note](https://bsauce.github.io/2022/05/03/KHeaps/)】
-17. 2022-S&P：[GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1A4Q45SVJm0/pdf) — 【[tool-GREBE](https://github.com/Markakd/GREBE)】
+17. 2022-S&P：[GREBE: Unveiling Exploitation Potential for Linux Kernel Bugs](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1A4Q45SVJm0/pdf) — 【[note](https://mp.weixin.qq.com/s/81xwMR5klSMZtK_rlD-5Eg)】 【[note2](https://zhuanlan.zhihu.com/p/641499213)】 【[reproduce](https://github.com/Shawdox/Reproduce-for-GREBE)】 【[tool-GREBE](https://github.com/Markakd/GREBE)】
 18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/)
 19. 2022-CCS：[DirtyCred: Escalating Privilege in Linux Kernel](https://zplin.me/papers/DirtyCred.pdf) — 【[note](https://bsauce.github.io/2022/10/12/DirtyCred/)】
 20. 2023-USENIX：[PSPRAY: Timing Side-Channel based Linux Kernel Heap Exploitation Technique](https://www.usenix.org/system/files/sec23summer_79-lee-prepub.pdf) — 【[note](https://bsauce.github.io/2023/04/16/PSPRAY/)】 【[note2](https://mstmoonshine.github.io/p/pspray/)】
@@ -107,16 +107,16 @@ Keep updating...
 42. 2021-CCS：[Detecting Missed Security Operations Through Differential Checking of Object-based Similar Paths](https://nesa.zju.edu.cn/download/ldh_pdf_IPPO.pdf) — 【[note](https://blog.ycdxsb.cn/e6c8cbe9.html)】
 43. 2021-SOSP：[HEALER: Relation Learning Guided Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3477132.3483547) — 【[tool-healer](https://github.com/SunHao-0/healer)】  【[note](https://mp.weixin.qq.com/s/SYvNC7EMf-sMeZeKMPJD0A)】 【[note2](https://www.freebuf.com/articles/292731.html)】  【[note3](https://zhuanlan.zhihu.com/p/454613247)】
 44. 2021-S&P：[A Novel Dynamic Analysis Infrastructure to Instrument Untrusted Execution Flow Across User-Kernel Spaces](http://www.mysmu.edu/faculty/xhding/publications/oasis-sp21.pdf)
-45. 2022-NDSS：[An In-depth Analysis of Duplicated Linux Kernel Bug Reports](https://www.ndss-symposium.org/ndss-paper/auto-draft-246/)
+45. 2022-NDSS：[An In-depth Analysis of Duplicated Linux Kernel Bug Reports](https://www.ndss-symposium.org/ndss-paper/auto-draft-246/) — 【[note](https://mp.weixin.qq.com/s/AKI2BmByRkk0DH3uSfiW4g)】
 46. 2022-NDSS：[Progressive Scrutiny-Incremental Detection of UBI bugs in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-249/) — 【[note](https://mp.weixin.qq.com/s/fnesSNqxdAjAHEiA6-guJw)】
 47. 2022-NDSS：[Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/) — 【[note](https://mp.weixin.qq.com/s/2zOnYyJcyLps7hjodKegRQ)】 【[note2](https://blog.csdn.net/qq_29278173/article/details/129582203)】
 48. 2022-USENIX：[LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution](https://www.usenix.org/conference/usenixsecurity22/presentation/liu-jian) — 【[note](https://bsauce.github.io/2022/05/04/LinKRID/)】 【[note2](https://mp.weixin.qq.com/s/zmieL1-b5nOUq5Lfo6nqKA)】
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
 50. 2023-NDSS：[No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
 51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf) — 【[note](https://mp.weixin.qq.com/s/M-aeEK0fG47JNvOt2FOPxA)】
-52. 2023-S&P：SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers
+52. 2023-S&P：[SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) — 【[tool-SyzDescribe](https://github.com/seclab-ucr/SyzDescribe)】
 53. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
-54. 2023-S&P：SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing
+54. 2023-S&P：[SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf) — 【[tool-segfuzz](https://github.com/casys-kaist/segfuzz)】
 
 #### （3）kernel defense
 

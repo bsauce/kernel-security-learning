@@ -159,9 +159,11 @@ Keep updating...
 37. 2021-USENIX：[Undo Workarounds for Kernel Bugs](https://www.usenix.org/conference/usenixsecurity21/presentation/talebi)
 38. 2021-USENIX：[SHARD: Fine-Grained Kernel Specialization with Context-Aware Hardening](https://www.usenix.org/conference/usenixsecurity21/presentation/abubakar)
 39. 2021-USENIX：[Preventing Use-After-Free Attacks with Fast Forward Allocation](https://www.usenix.org/conference/usenixsecurity21/presentation/wickman)
-40. 2022-USENIX：[Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
-41. 2023-S&P：EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation
-42. 2023-S&P：[uSwitch: Fast Kernel Context Isolation with Implicit Context Switches](https://www.cs.purdue.edu/homes/pfonseca/papers/sp23-uswitch.pdf)
+40. 2022-NDSS：[Preventing Kernel Hacks with HAKCs](https://www.ndss-symposium.org/ndss-paper/auto-draft-257/)
+41. 2022-USENIX：[Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
+42. 2023-S&P：[EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation](https://ieeexplore.ieee.org/document/10179285)
+43. 2023-S&P：[uSwitch: Fast Kernel Context Isolation with Implicit Context Switches](https://www.cs.purdue.edu/homes/pfonseca/papers/sp23-uswitch.pdf)
+44. 2023-USENIX：[PET: Prevent Discovered Errors from Being Triggered in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zicheng)
 
 other resources：
 

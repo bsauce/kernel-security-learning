@@ -57,8 +57,9 @@ Keep updating...
 18. 2022-NDSS：[Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://www.ndss-symposium.org/ndss-paper/auto-draft-247/) — 【[note](https://mp.weixin.qq.com/s/dPB4blm3dwY_lYSfilLvHw)】 【[tool-Kasper](https://github.com/vusec/kasper/blob/main/README.md)】
 19. 2022-CCS：[DirtyCred: Escalating Privilege in Linux Kernel](https://zplin.me/papers/DirtyCred.pdf) — 【[note](https://bsauce.github.io/2022/10/12/DirtyCred/)】
 20. 2023-USENIX：[PSPRAY: Timing Side-Channel based Linux Kernel Heap Exploitation Technique](https://www.usenix.org/system/files/sec23summer_79-lee-prepub.pdf) — 【[note](https://bsauce.github.io/2023/04/16/PSPRAY/)】 【[note2](https://mstmoonshine.github.io/p/pspray/)】
-21. 2023-S&P：[AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://yuanxzhang.github.io/paper/aem-oakland23.pdf) — 【[note](https://blog.wohin.me/posts/paper-aem/)】
-22. 2023-S&P：[When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b472/1Js0DZUDcyI) — 【[note](https://bsauce.github.io/2023/05/23/UACatcher/)】 【[note2](https://mp.weixin.qq.com/s/7usXokjDSNeFyWcPu7zSYA)】
+21. 2023-USENIX：[AlphaEXP: An Expert System for Identifying Security-Sensitive Kernel Objects](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-ruipeng)
+22. 2023-S&P：[AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://yuanxzhang.github.io/paper/aem-oakland23.pdf) — 【[note](https://blog.wohin.me/posts/paper-aem/)】
+23. 2023-S&P：[When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b472/1Js0DZUDcyI) — 【[note](https://bsauce.github.io/2023/05/23/UACatcher/)】 【[note2](https://mp.weixin.qq.com/s/7usXokjDSNeFyWcPu7zSYA)】
 
 
 #### （2）kernel vulerability detection
@@ -114,9 +115,14 @@ Keep updating...
 49. 2022-USENIX：[OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi)
 50. 2023-NDSS：[No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
 51. 2023-USENIX：[FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf) — 【[note](https://mp.weixin.qq.com/s/M-aeEK0fG47JNvOt2FOPxA)】
-52. 2023-S&P：[SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) — 【[tool-SyzDescribe](https://github.com/seclab-ucr/SyzDescribe)】
-53. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
-54. 2023-S&P：[SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf) — 【[tool-segfuzz](https://github.com/casys-kaist/segfuzz)】
+52. 2023-USENIX：[Mitigating Security Risks in Linux with KLAUS: A Method for Evaluating Patch Correctness](https://www.usenix.org/conference/usenixsecurity23/presentation/wu-yuhang)
+53. 2023-USENIX：[BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing](https://www.usenix.org/conference/usenixsecurity23/presentation/cho)
+54. 2023-USENIX：[ACTOR: Action-Guided Kernel Fuzzing](https://www.usenix.org/conference/usenixsecurity23/presentation/fleischer)
+55. 2023-USENIX：[Uncontained: Uncovering Container Confusion in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/koschel)
+56. 2023-USENIX：[DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing](https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-ming)
+57. 2023-S&P：[SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) — 【[tool-SyzDescribe](https://github.com/seclab-ucr/SyzDescribe)】
+58. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
+59. 2023-S&P：[SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf) — 【[tool-segfuzz](https://github.com/casys-kaist/segfuzz)】
 
 #### （3）kernel defense
 
@@ -164,6 +170,7 @@ Keep updating...
 42. 2023-S&P：[EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation](https://ieeexplore.ieee.org/document/10179285)
 43. 2023-S&P：[uSwitch: Fast Kernel Context Isolation with Implicit Context Switches](https://www.cs.purdue.edu/homes/pfonseca/papers/sp23-uswitch.pdf)
 44. 2023-USENIX：[PET: Prevent Discovered Errors from Being Triggered in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zicheng)
+45. 2023-USENIX：[A Hybrid Alias Analysis and Its Application to Global Variable Protection in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/li-guoren)
 
 other resources：
 

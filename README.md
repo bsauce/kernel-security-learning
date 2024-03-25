@@ -60,6 +60,8 @@ Keep updating...
 21. 2023-USENIX：[AlphaEXP: An Expert System for Identifying Security-Sensitive Kernel Objects](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-ruipeng)
 22. 2023-S&P：[AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://yuanxzhang.github.io/paper/aem-oakland23.pdf) — 【[note](https://blog.wohin.me/posts/paper-aem/)】
 23. 2023-S&P：[When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b472/1Js0DZUDcyI) — 【[note](https://bsauce.github.io/2023/05/23/UACatcher/)】 【[note2](https://mp.weixin.qq.com/s/7usXokjDSNeFyWcPu7zSYA)】
+24. 2024-NDSS: [SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem](https://www.ndss-symposium.org/wp-content/uploads/2024-926-paper.pdf) - 【[tool-SyzBridge](https://github.com/seclab-ucr/SyzBridge)】
+25. 2024-NDSS: [K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel](https://www.cs.ucr.edu/%7Ezhiyunq/pub/ndss24_kleak.pdf) -【[tool-K-LEAK](https://github.com/seclab-ucr/K-LEAK)】 
 
 
 #### （2）kernel vulerability detection
@@ -123,6 +125,9 @@ Keep updating...
 57. 2023-S&P：[SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) — 【[tool-SyzDescribe](https://github.com/seclab-ucr/SyzDescribe)】
 58. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
 59. 2023-S&P：[SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf) — 【[tool-segfuzz](https://github.com/casys-kaist/segfuzz)】
+60. 2024-NDSS: [MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency](https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/) - 【[tool-mock](https://github.com/m0ck1ng/mock)】
+61. 2024-S&P: [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 【[tool-Virtfuzz](https://github.com/seemoo-lab/VirtFuzz)】
+62. 2024-S&P: [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/%7Ezhiyunq/pub/oakland24_syzgenplusplus.pdf) 【[tool-SyzGen++](https://github.com/seclab-ucr/SyzGenPlusPlus)】
 
 #### （3）kernel defense
 

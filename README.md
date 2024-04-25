@@ -234,11 +234,15 @@ other resources：
 35. [【kernel exploit】CVE-2022-32250 nftables错误链表操作导致UAF写的漏洞利用](https://bsauce.github.io/2022/11/03/CVE-2022-32250/)
 36. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
 
+---
+
+## 4. Exploitation Techniques
+1. [Dirty Pagetable-一种新的内核漏洞利用技术](https://bsauce.github.io/2024/04/25/Dirty-Pagetable/)
 
 
 ---
 
-## 4. Tool
+## 5. Tool
 1. [syzkaller 源码阅读笔记1（syz-extract & syz-sysgen）](https://bsauce.github.io/2022/05/13/syzkaller1/)
 2. [syzkaller 源码阅读笔记2（syz-manager）](https://bsauce.github.io/2022/05/14/syzkaller2/)
 3. [syzkaller 源码阅读笔记3（syz-fuzzer）](https://bsauce.github.io/2022/05/15/syzkaller3/)
@@ -246,7 +250,7 @@ other resources：
 
 ---
 
-## 5. Debug & other techniques
+## 6. Debug & other techniques
 
 1. [linux双机调试](https://www.cnblogs.com/bsauce/p/11634162.html)
 2. [linux内核漏洞利用初探（1）：环境配置](https://blog.csdn.net/panhewu9919/article/details/99438304)

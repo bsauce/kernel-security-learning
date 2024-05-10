@@ -233,6 +233,7 @@ other resources：
 34. [从 PWN2OWN CVE-2022-27666 看内核页风水](https://paper.seebug.org/1889/)
 35. [【kernel exploit】CVE-2022-32250 nftables错误链表操作导致UAF写的漏洞利用](https://bsauce.github.io/2022/11/03/CVE-2022-32250/)
 36. [【kernel exploit】CVE-2022-34918 nftable堆溢出漏洞利用（list_head任意写）](https://bsauce.github.io/2022/07/26/CVE-2022-34918/)
+37. [【kernel exploit】CVE-2024-1086 nftables UAF漏洞-Dirty Pagedirectory利用方法](https://bsauce.github.io/2024/05/10/CVE-2024-1086/)
 
 ---
 

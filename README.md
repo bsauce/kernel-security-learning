@@ -177,6 +177,7 @@ Keep updating...
 43. 2023-S&P：[uSwitch: Fast Kernel Context Isolation with Implicit Context Switches](https://www.cs.purdue.edu/homes/pfonseca/papers/sp23-uswitch.pdf)
 44. 2023-USENIX：[PET: Prevent Discovered Errors from Being Triggered in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zicheng)
 45. 2023-USENIX：[A Hybrid Alias Analysis and Its Application to Global Variable Protection in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/li-guoren)
+46. 2024-USENIX：[SeaK: Rethinking the Design of a Secure Allocator for OS Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/wang-zicheng)
 
 other resources：
 

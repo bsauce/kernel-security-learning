@@ -60,7 +60,7 @@ Keep updating...
 21. 2023-USENIX：[AlphaEXP: An Expert System for Identifying Security-Sensitive Kernel Objects](https://www.usenix.org/conference/usenixsecurity23/presentation/wang-ruipeng)
 22. 2023-S&P：[AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://yuanxzhang.github.io/paper/aem-oakland23.pdf) — 【[note](https://blog.wohin.me/posts/paper-aem/)】
 23. 2023-S&P：[When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b472/1Js0DZUDcyI) — 【[note](https://bsauce.github.io/2023/05/23/UACatcher/)】 【[note2](https://mp.weixin.qq.com/s/7usXokjDSNeFyWcPu7zSYA)】
-24. 2023-CCS：[RetSpill: Igniting User-Controlled Data to Burn Away Linux Kernel Protections](https://kylebot.net/papers/retspill.pdf) — 【[tool-RetSpill](https://github.com/sefcom/RetSpill)】
+24. 2023-CCS：[RetSpill: Igniting User-Controlled Data to Burn Away Linux Kernel Protections](https://kylebot.net/papers/retspill.pdf) — 【[note](https://bsauce.github.io/2024/05/21/RetSpill/)】 【[tool-RetSpill](https://github.com/sefcom/RetSpill)】
 25. 2024-NDSS: [SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem](https://www.ndss-symposium.org/wp-content/uploads/2024-926-paper.pdf) - 【[note](https://bsauce.github.io/2024/05/20/SyzBridge/)】 【[tool-SyzBridge](https://github.com/seclab-ucr/SyzBridge)】
 26. 2024-NDSS: [K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel](https://www.cs.ucr.edu/%7Ezhiyunq/pub/ndss24_kleak.pdf) - 【[note](https://bsauce.github.io/2024/05/18/K-LEAK/)】 【[tool-K-LEAK](https://github.com/seclab-ucr/K-LEAK)】 
 

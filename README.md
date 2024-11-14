@@ -65,6 +65,7 @@ Keep updating...
 26. 2024-NDSS: [K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel](https://www.cs.ucr.edu/%7Ezhiyunq/pub/ndss24_kleak.pdf) - 【[note](https://bsauce.github.io/2024/05/18/K-LEAK/)】 【[tool-K-LEAK](https://github.com/seclab-ucr/K-LEAK)】
 27. 2024-USENIX：[Take a Step Further: Understanding Page Spray in Linux Kernel Exploitation](https://www.usenix.org/conference/usenixsecurity24/presentation/guo-ziyi)
 28. 2024-USENIX：[SLUBStick: Arbitrary Memory Writes through Practical Software Cross-Cache Attacks within the Linux Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/maar-slubstick) - 【[tool-SLUBStick](https://github.com/IAIK/SLUBStick)】
+29. 2024-USENIX：[SCAVY: Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/conference/usenixsecurity24/presentation/avllazagaj)
 
 
 #### （2）kernel vulerability detection

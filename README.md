@@ -129,9 +129,10 @@ Keep updating...
 57. 2023-S&P：[SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) — 【[tool-SyzDescribe](https://github.com/seclab-ucr/SyzDescribe)】
 58. 2023-S&P：[Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.cs.columbia.edu/~gabe/files/oakland2023_pla.pdf)
 59. 2023-S&P：[SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](http://cps.kaist.ac.kr/papers/jeong-segfuzz.pdf) — 【[tool-segfuzz](https://github.com/casys-kaist/segfuzz)】
-60. 2024-NDSS: [MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency](https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/) - 【[tool-mock](https://github.com/m0ck1ng/mock)】
-61. 2024-S&P: [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 【[tool-Virtfuzz](https://github.com/seemoo-lab/VirtFuzz)】
-62. 2024-S&P: [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/%7Ezhiyunq/pub/oakland24_syzgenplusplus.pdf) 【[tool-SyzGen++](https://github.com/seclab-ucr/SyzGenPlusPlus)】
+60. 2023-CCS：[SyzDirect: Directed Greybox Fuzzing for Linux Kernel](https://yuanxzhang.github.io/paper/syzdirect-ccs23.pdf) — 【[tool-Syzdirect](https://github.com/seclab-fudan/SyzDirect)】
+61. 2024-NDSS: [MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency](https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/) - 【[tool-mock](https://github.com/m0ck1ng/mock)】
+62. 2024-S&P: [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 【[tool-Virtfuzz](https://github.com/seemoo-lab/VirtFuzz)】
+63. 2024-S&P: [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/%7Ezhiyunq/pub/oakland24_syzgenplusplus.pdf) 【[tool-SyzGen++](https://github.com/seclab-ucr/SyzGenPlusPlus)】
 
 #### （3）kernel defense
 

@@ -136,6 +136,7 @@ Keep updating...
 63. 2024-S&P: [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/%7Ezhiyunq/pub/oakland24_syzgenplusplus.pdf) 【[tool-SyzGen++](https://github.com/seclab-ucr/SyzGenPlusPlus)】
 64. 2024-USENIX：[CARDSHARK Understanding and Stablizing Linux Kernel Concurrency Bugs Against the Odds](https://www.usenix.org/system/files/usenixsecurity24-han-tianshuo.pdf)
 65. 2024-USENIX：[Detecting Kernel Memory Bugs through Inconsistent Memory Management Intention Inferences](https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf)
+66. 2024-USENIX：[StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing](https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-bodong)
 
 #### （3）kernel defense
 

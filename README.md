@@ -66,6 +66,8 @@ Keep updating...
 27. 2024-USENIX：[Take a Step Further: Understanding Page Spray in Linux Kernel Exploitation](https://www.usenix.org/conference/usenixsecurity24/presentation/guo-ziyi)
 28. 2024-USENIX：[SLUBStick: Arbitrary Memory Writes through Practical Software Cross-Cache Attacks within the Linux Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/maar-slubstick) - 【[tool-SLUBStick](https://github.com/IAIK/SLUBStick)】
 29. 2024-USENIX：[SCAVY: Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/conference/usenixsecurity24/presentation/avllazagaj)
+30. 2024-USENIX：[SCAVY-Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/system/files/usenixsecurity24-avllazagaj.pdf)
+31. 2024-TIFS：[Beyond Control-Exploring Novel File System Objects for Data-Only Attacks on Linux Systems](https://arxiv.org/pdf/2401.17618)
 
 
 #### （2）kernel vulerability detection

@@ -66,8 +66,7 @@ Keep updating...
 27. 2024-USENIX：[Take a Step Further: Understanding Page Spray in Linux Kernel Exploitation](https://www.usenix.org/conference/usenixsecurity24/presentation/guo-ziyi)
 28. 2024-USENIX：[SLUBStick: Arbitrary Memory Writes through Practical Software Cross-Cache Attacks within the Linux Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/maar-slubstick) - 【[tool-SLUBStick](https://github.com/IAIK/SLUBStick)】
 29. 2024-USENIX：[SCAVY: Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/conference/usenixsecurity24/presentation/avllazagaj)
-30. 2024-USENIX：[CARDSHARK Understanding and Stablizing Linux Kernel Concurrency Bugs Against the Odds](https://www.usenix.org/system/files/usenixsecurity24-han-tianshuo.pdf)
-31. 2024-TIFS：[Beyond Control-Exploring Novel File System Objects for Data-Only Attacks on Linux Systems](https://arxiv.org/pdf/2401.17618)
+30. 2024-TIFS：[Beyond Control-Exploring Novel File System Objects for Data-Only Attacks on Linux Systems](https://arxiv.org/pdf/2401.17618)
 
 
 #### （2）kernel vulerability detection
@@ -135,6 +134,7 @@ Keep updating...
 61. 2024-NDSS: [MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency](https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/) - 【[tool-mock](https://github.com/m0ck1ng/mock)】
 62. 2024-S&P: [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 【[tool-Virtfuzz](https://github.com/seemoo-lab/VirtFuzz)】
 63. 2024-S&P: [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/%7Ezhiyunq/pub/oakland24_syzgenplusplus.pdf) 【[tool-SyzGen++](https://github.com/seclab-ucr/SyzGenPlusPlus)】
+64. 2024-USENIX：[CARDSHARK Understanding and Stablizing Linux Kernel Concurrency Bugs Against the Odds](https://www.usenix.org/system/files/usenixsecurity24-han-tianshuo.pdf)
 
 #### （3）kernel defense
 

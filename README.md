@@ -68,6 +68,8 @@ Keep updating...
 29. 2024-USENIX：[SCAVY: Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/conference/usenixsecurity24/presentation/avllazagaj)
 30. 2024-TIFS：[Beyond Control-Exploring Novel File System Objects for Data-Only Attacks on Linux Systems](https://arxiv.org/pdf/2401.17618)
 31. 2024-CCS：[On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)](https://dl.acm.org/doi/pdf/10.1145/3658644.3670332)
+32. 2025-NDSS：[KernelSnitch: Side-Channel Attacks on Kernel Data Structures](https://lukasmaar.github.io/papers/ndss25-kernelsnitch.pdf) —— 【[tool-KernelSnitch](https://github.com/isec-tugraz/KernelSnitch)】 【[slides](https://lukasmaar.github.io/slides/ndss25-kernelsnitch.pdf)】
+33. 2025-USENIX：[When Good Kernel Defenses Go Bad: Reliable and Stable Kernel Exploits via Defense-Amplified TLB Side-Channel Leaks](https://lukasmaar.github.io/papers/usenix25-tlbsidechannel.pdf) —— 【[tool-TLBSideChannel](https://github.com/isec-tugraz/TLBSideChannel)】
 
 
 #### （2）kernel vulerability detection
@@ -195,6 +197,7 @@ Keep updating...
 48. 2024-CCS：[Safeslab: Mitigating Use-After-Free Vulnerabilities via Memory Protection Keys](https://cs.brown.edu/~vpk/papers/safeslab.ccs24.pdf) —— 【[tool-safeslab](https://github.com/tum-itsec/safeslab)】
 49. 2024-CCS：[The Illusion of Randomness: An Empirical Analysis of Address Space Layout Randomization Implementations](https://arxiv.org/pdf/2408.15107)
 50. 2024-CCS：[PeTAL: Ensuring Access Control Integrity against Data-only Attacks on Linux](https://www.cs.ucr.edu/~csong/ccs24-petal.pdf) —— 【[tool-petal](https://github.com/compsec-snu/petal)】
+51. 2024-CCS：[Beyond the edges of kernel control-flow hijacking protection with hek-cfi](https://dl.acm.org/doi/pdf/10.1145/3634737.3661135) —— 【[slides](https://lukasmaar.github.io/slides/asiaccs24-hekcfi.pdf)】
 
 other resources：
 

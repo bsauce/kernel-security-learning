@@ -67,6 +67,7 @@ Keep updating...
 28. 2024-USENIX：[SLUBStick: Arbitrary Memory Writes through Practical Software Cross-Cache Attacks within the Linux Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/maar-slubstick) - 【[tool-SLUBStick](https://github.com/IAIK/SLUBStick)】
 29. 2024-USENIX：[SCAVY: Automated Discovery of Memory Corruption Targets in Linux Kernel for Privilege Escalation](https://www.usenix.org/conference/usenixsecurity24/presentation/avllazagaj)
 30. 2024-TIFS：[Beyond Control-Exploring Novel File System Objects for Data-Only Attacks on Linux Systems](https://arxiv.org/pdf/2401.17618)
+31. 2024-CCS：[On Kernel's Safety in the Spectre Era (And KASLR is Formally Dead)](https://dl.acm.org/doi/pdf/10.1145/3658644.3670332)
 
 
 #### （2）kernel vulerability detection
@@ -138,6 +139,9 @@ Keep updating...
 65. 2024-USENIX：[Detecting Kernel Memory Bugs through Inconsistent Memory Management Intention Inferences](https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf)
 66. 2024-USENIX：[StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing](https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-bodong)
 67. 2024-SOSP：[OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering](https://dl.acm.org/doi/pdf/10.1145/3694715.3695944) - 【[tool-ozz](https://github.com/casys-kaist/ozz)】
+68. 2024-CCS：[CountDown: Refcount-guided Fuzzing for Exposing Temporal Memory Errors in Linux Kernel](https://huhong789.github.io/papers/bai:countdown.pdf) —— [slides](https://huhong789.github.io/papers/bai:countdown-slides.pdf) 【[tool-countdown](https://github.com/psu-security-universe/countdown)】
+69. 2024-CCS：[Leveraging Binary Coverage for Effective Generation Guidance in Kernel Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/KBinCov_CCS24.pdf)
+70. 2024-CCS：[Toss a Fault to BpfChecker: Revealing Implementation Flaws for eBPF runtimes with Differential Fuzzing](https://www.yajin.org/papers/CCS2024_BpfChecker.pdf) —— 【[tool-BpfCheckerSource](https://github.com/bpfchecker/BpfCheckerSource)】
 
 #### （3）kernel defense
 
@@ -188,6 +192,9 @@ Keep updating...
 45. 2023-USENIX：[A Hybrid Alias Analysis and Its Application to Global Variable Protection in the Linux Kernel](https://www.usenix.org/conference/usenixsecurity23/presentation/li-guoren)
 46. 2023-USENIX：[Moat: Towards Safe BPF Kernel Extension](https://www.usenix.org/system/files/usenixsecurity24-lu-hongyi.pdf)
 47. 2024-USENIX：[SeaK: Rethinking the Design of a Secure Allocator for OS Kernel](https://www.usenix.org/conference/usenixsecurity24/presentation/wang-zicheng)
+48. 2024-CCS：[Safeslab: Mitigating Use-After-Free Vulnerabilities via Memory Protection Keys](https://cs.brown.edu/~vpk/papers/safeslab.ccs24.pdf) —— 【[tool-safeslab](https://github.com/tum-itsec/safeslab)】
+49. 2024-CCS：[The Illusion of Randomness: An Empirical Analysis of Address Space Layout Randomization Implementations](https://arxiv.org/pdf/2408.15107)
+50. 2024-CCS：[PeTAL: Ensuring Access Control Integrity against Data-only Attacks on Linux](https://www.cs.ucr.edu/~csong/ccs24-petal.pdf) —— 【[tool-petal](https://github.com/compsec-snu/petal)】
 
 other resources：
 

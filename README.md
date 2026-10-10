@@ -80,6 +80,8 @@ Keep updating...
 41. 2026-NDSS: [SoK: Take a Deep Step into Linux Kernel Hardening Effectiveness from the Offensive-Defensive Perspective](https://www.ndss-symposium.org/ndss-paper/sok-take-a-deep-step-into-linux-kernel-hardening-effectiveness-from-the-offensive-defensive-perspective/)
 42. 2026-S&P: [Heap Localization: Cache Side-Channel based Linux Kernel Heap Exploit Techniques](https://leeyoochan.github.io/assets/pdf/Heap_Localization_SP_2026.pdf)
 43. 2026-CCS: [PrivEscalate-Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation](https://arxiv.org/pdf/2609.09087)
+44. 2026-USENIX：[Fence2Pwn: KFENCE-Enabled Kernel Exploitation Bypassing Slab Hardening and Memory Tagging](https://www.usenix.org/system/files/usenixsecurity26-garcia.pdf)
+45. 2026-USENIX：[Discovering, characterizing and exploiting controllable-copy objects for kernel data-only attacks with CopyKat](https://www.usenix.org/system/files/usenixsecurity26-koschel.pdf)
 
 #### Rootcase Analyze
 
